@@ -1,0 +1,1693 @@
+[
+  {
+    "config": "Q kfac 4.0 g256 \u03b30.25",
+    "seed": 42,
+    "gamma": 0.25,
+    "ppl_val": 31.258848190307617,
+    "ppl": 29.97915267944336,
+    "bits": 3.625,
+    "wbits": 3.5,
+    "H_zero": 3.0525328651180024,
+    "bits_zero": 3.1775328651180024
+  },
+  {
+    "config": "Q kfac 3.5 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 34.917579650878906,
+    "ppl": 33.628028869628906,
+    "bits": 3.125,
+    "wbits": 3.0,
+    "H_zero": 2.5677614108702516,
+    "bits_zero": 2.6927614108702516
+  },
+  {
+    "config": "Q kfac 3.5 g256 \u03b30.25",
+    "seed": 42,
+    "gamma": 0.25,
+    "ppl_val": 35.33313751220703,
+    "ppl": 33.78791427612305,
+    "bits": 3.125,
+    "wbits": 3.0,
+    "H_zero": 2.567720910493843,
+    "bits_zero": 2.692720910493843
+  },
+  {
+    "config": "Q kfac 3.5 g256 \u03b30.5",
+    "seed": 42,
+    "gamma": 0.5,
+    "ppl_val": 49.4462776184082,
+    "ppl": 46.852970123291016,
+    "bits": 3.125,
+    "wbits": 3.0,
+    "H_zero": 2.565705090896986,
+    "bits_zero": 2.690705090896986
+  },
+  {
+    "config": "Q kfac 4.0 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 31.21784019470215,
+    "ppl": 30.007190704345703,
+    "bits": 3.625,
+    "wbits": 3.5,
+    "H_zero": 3.0521320439330326,
+    "bits_zero": 3.1771320439330326
+  },
+  {
+    "config": "Q kfac 4.0 g256 \u03b30.5",
+    "seed": 42,
+    "gamma": 0.5,
+    "ppl_val": 32.97999954223633,
+    "ppl": 31.509624481201172,
+    "bits": 3.625,
+    "wbits": 3.5,
+    "H_zero": 3.051622319516834,
+    "bits_zero": 3.176622319516834
+  },
+  {
+    "config": "Q admm kfac 3.5 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 39.54083251953125,
+    "ppl": 37.8232536315918,
+    "bits": 3.125,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admm kfac 3.5 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 31.27336883544922,
+    "ppl": 30.095232009887695,
+    "bits": 3.260870333071108,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admm kfac 4.0 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 34.476531982421875,
+    "ppl": 33.08128356933594,
+    "bits": 3.625,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admm kfac 4.0 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 29.988759994506836,
+    "ppl": 28.82503890991211,
+    "bits": 3.7608684728175032,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.5 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 33.39815902709961,
+    "ppl": 32.126163482666016,
+    "bits": 3.125,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 31.354581832885742,
+    "ppl": 30.194477081298828,
+    "bits": 3.2608845793170693,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 4.0 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 30.590517044067383,
+    "ppl": 29.3878231048584,
+    "bits": 3.625,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admmH kfac 4.0 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 29.939830780029297,
+    "ppl": 28.784452438354492,
+    "bits": 3.7609374434859664,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 4.5 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 29.544633865356445,
+    "ppl": 28.4443416595459,
+    "bits": 4.125,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 35.380680084228516,
+    "ppl": 34.02775192260742,
+    "bits": 2.7606625027126737,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admmH kfac 4.5 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 29.41720199584961,
+    "ppl": 28.235586166381836,
+    "bits": 4.260865859043451,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.0 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 40.502506256103516,
+    "ppl": 38.950469970703125,
+    "bits": 2.625,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admmH kfac 2.5 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 48.075592041015625,
+    "ppl": 46.30647659301758,
+    "bits": 2.260654355272835,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 2.5 g256 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 64.53555297851562,
+    "ppl": 61.4995002746582,
+    "bits": 2.125,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.5 g256 \u03b30.0",
+    "seed": 0,
+    "gamma": 0.0,
+    "ppl_val": 33.106964111328125,
+    "ppl": 31.9041805267334,
+    "bits": 3.125,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 \u03b30.0",
+    "seed": 0,
+    "gamma": 0.0,
+    "ppl_val": 31.726207733154297,
+    "ppl": 30.510366439819336,
+    "bits": 3.260820482984001,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 \u03b30.0",
+    "seed": 0,
+    "gamma": 0.0,
+    "ppl_val": 35.47482681274414,
+    "ppl": 34.03059768676758,
+    "bits": 2.7607276115888433,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.0 g256 \u03b30.0",
+    "seed": 0,
+    "gamma": 0.0,
+    "ppl_val": 40.86855697631836,
+    "ppl": 39.29157257080078,
+    "bits": 2.625,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.5 g256 \u03b30.0",
+    "seed": 1,
+    "gamma": 0.0,
+    "ppl_val": 33.593345642089844,
+    "ppl": 32.273956298828125,
+    "bits": 3.125,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 \u03b30.0",
+    "seed": 1,
+    "gamma": 0.0,
+    "ppl_val": 31.739416122436523,
+    "ppl": 30.450834274291992,
+    "bits": 3.260789918310848,
+    "wbits": 0.0
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 \u03b30.0",
+    "seed": 1,
+    "gamma": 0.0,
+    "ppl_val": 35.5288200378418,
+    "ppl": 34.17094039916992,
+    "bits": 2.7607894002655406,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.0 g256 \u03b30.0",
+    "seed": 1,
+    "gamma": 0.0,
+    "ppl_val": 40.312320709228516,
+    "ppl": 38.617706298828125,
+    "bits": 2.625,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 2.5 g128 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 58.873260498046875,
+    "ppl": 56.08504867553711,
+    "bits": 2.25,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.0 g128 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 37.137451171875,
+    "ppl": 35.631439208984375,
+    "bits": 2.75,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.5 g128 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 32.4229850769043,
+    "ppl": 31.175125122070312,
+    "bits": 3.25,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 4.0 g128 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 30.385034561157227,
+    "ppl": 29.205533981323242,
+    "bits": 3.75,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 4.5 g128 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 29.55267333984375,
+    "ppl": 28.394384384155273,
+    "bits": 4.25,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.0 g128 \u03b30.0",
+    "seed": 0,
+    "gamma": 0.0,
+    "ppl_val": 37.26847839355469,
+    "ppl": 35.86133575439453,
+    "bits": 2.75,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.5 g128 \u03b30.0",
+    "seed": 0,
+    "gamma": 0.0,
+    "ppl_val": 32.55978775024414,
+    "ppl": 31.346084594726562,
+    "bits": 3.25,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.0 g128 \u03b30.0",
+    "seed": 1,
+    "gamma": 0.0,
+    "ppl_val": 37.85416030883789,
+    "ppl": 36.144615173339844,
+    "bits": 2.75,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.5 g128 \u03b30.0",
+    "seed": 1,
+    "gamma": 0.0,
+    "ppl_val": 32.6819953918457,
+    "ppl": 31.42753028869629,
+    "bits": 3.25,
+    "wbits": 0.0
+  },
+  {
+    "config": "Q kfac 2.5 g128 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 67.7388687133789,
+    "ppl": 65.04891204833984,
+    "bits": 2.25,
+    "wbits": 2.0,
+    "H_zero": 1.6249428689744403,
+    "bits_zero": 1.8749428689744403
+  },
+  {
+    "config": "Q kfac 3.0 g128 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 41.51811981201172,
+    "ppl": 39.83245086669922,
+    "bits": 2.75,
+    "wbits": 2.5,
+    "H_zero": 2.1285010966842886,
+    "bits_zero": 2.3785010966842886
+  },
+  {
+    "config": "Q kfac 3.5 g128 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 33.44203186035156,
+    "ppl": 32.09749221801758,
+    "bits": 3.25,
+    "wbits": 3.0,
+    "H_zero": 2.649289744444626,
+    "bits_zero": 2.899289744444626
+  },
+  {
+    "config": "Q kfac 4.0 g128 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 30.676342010498047,
+    "ppl": 29.488849639892578,
+    "bits": 3.75,
+    "wbits": 3.5,
+    "H_zero": 3.1337426438302125,
+    "bits_zero": 3.3837426438302125
+  },
+  {
+    "config": "Q kfac 4.5 g128 \u03b30.0",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 29.755386352539062,
+    "ppl": 28.577192306518555,
+    "bits": 4.25,
+    "wbits": 4.0,
+    "H_zero": 3.6020882950613466,
+    "bits_zero": 3.8520882950613466
+  },
+  {
+    "config": "Q admmH kfac 3.0 g128 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 37.137451171875,
+    "ppl": 35.631439208984375,
+    "bits": 2.75,
+    "wbits": 2.5,
+    "H_zero": 2.1916770272294035,
+    "bits_zero": 2.4416770272294035
+  },
+  {
+    "config": "Q admmH kfac 3.0 g256 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 40.502506256103516,
+    "ppl": 38.950469970703125,
+    "bits": 2.625,
+    "wbits": 2.5,
+    "H_zero": 2.1309379010875706,
+    "bits_zero": 2.2559379010875706
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 35.90333938598633,
+    "ppl": 34.50627899169922,
+    "bits": 2.760746849907769,
+    "wbits": 2.5,
+    "H_zero": 2.2816285846316458,
+    "bits_zero": 2.542375434539415
+  },
+  {
+    "config": "Q admmH kfac 3.5 g128 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 32.4229850769043,
+    "ppl": 31.175125122070312,
+    "bits": 3.25,
+    "wbits": 3.0,
+    "H_zero": 2.672541993273916,
+    "bits_zero": 2.922541993273916
+  },
+  {
+    "config": "Q admmH kfac 3.5 g256 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 33.39815902709961,
+    "ppl": 32.126163482666016,
+    "bits": 3.125,
+    "wbits": 3.0,
+    "H_zero": 2.604288401548231,
+    "bits_zero": 2.729288401548231
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 31.473773956298828,
+    "ppl": 30.18310546875,
+    "bits": 3.2608617853235313,
+    "wbits": 3.0,
+    "H_zero": 2.7758904919787986,
+    "bits_zero": 3.03675227730233
+  },
+  {
+    "config": "Q admmH kfac 3.5 g1024 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 35.839027404785156,
+    "ppl": 34.32048034667969,
+    "bits": 3.0381944444444446,
+    "wbits": 3.0,
+    "H_zero": 2.493952086088523,
+    "bits_zero": 2.532146530532968
+  },
+  {
+    "config": "Q admmH kfac 4.0 g1024 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 31.903968811035156,
+    "ppl": 30.591772079467773,
+    "bits": 3.5381944444444446,
+    "wbits": 3.5,
+    "H_zero": 2.952758700621275,
+    "bits_zero": 2.9909531450657196
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g1024 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 36.465232849121094,
+    "ppl": 34.90425491333008,
+    "bits": 2.6662012500527466,
+    "wbits": 2.5,
+    "H_zero": 2.248472203190211,
+    "bits_zero": 2.4146734532429575
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g1024 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 32.052947998046875,
+    "ppl": 30.789152145385742,
+    "bits": 3.1663499996985918,
+    "wbits": 3.0,
+    "H_zero": 2.739089646147057,
+    "bits_zero": 2.905439645845649
+  },
+  {
+    "config": "tubo admmH kfac 4.0 g1024 ent",
+    "seed": 42,
+    "gamma": 0.0,
+    "ppl_val": 30.123004913330078,
+    "ppl": 28.96128273010254,
+    "bits": 3.6664008623288002,
+    "wbits": 3.5,
+    "H_zero": 3.221865630572768,
+    "bits_zero": 3.3882664929015682
+  },
+  {
+    "config": "Q kfac 3.0 g128 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 18.14141082763672,
+    "ppl": 17.487051010131836,
+    "bits": 2.75,
+    "wbits": 2.5,
+    "H_zero": 2.1380148824619,
+    "bits_zero": 2.3880148824619
+  },
+  {
+    "config": "tubo kfac 3.0 g256 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 17.67186737060547,
+    "ppl": 17.032350540161133,
+    "bits": 2.704038394822015,
+    "wbits": 2.5,
+    "H_zero": 2.1704244394674372,
+    "bits_zero": 2.374462834289452
+  },
+  {
+    "config": "Q kfac 3.5 g128 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 16.306957244873047,
+    "ppl": 15.716459274291992,
+    "bits": 3.25,
+    "wbits": 3.0,
+    "H_zero": 2.6546228378677323,
+    "bits_zero": 2.9046228378677323
+  },
+  {
+    "config": "tubo kfac 3.5 g256 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 16.19119644165039,
+    "ppl": 15.61243724822998,
+    "bits": 3.204024127788014,
+    "wbits": 3.0,
+    "H_zero": 2.7143077206600728,
+    "bits_zero": 2.9183318484480867
+  },
+  {
+    "config": "Q kfac 4.0 g128 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 15.661420822143555,
+    "ppl": 15.130614280700684,
+    "bits": 3.75,
+    "wbits": 3.5,
+    "H_zero": 3.1190928602572816,
+    "bits_zero": 3.3690928602572816
+  },
+  {
+    "config": "tubo kfac 4.0 g256 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 15.597618103027344,
+    "ppl": 15.068998336791992,
+    "bits": 3.704106585847007,
+    "wbits": 3.5,
+    "H_zero": 3.1998263647431724,
+    "bits_zero": 3.403932950590179
+  },
+  {
+    "config": "Q kfac 2.5 g128 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 22.56795310974121,
+    "ppl": 21.739774703979492,
+    "bits": 2.25,
+    "wbits": 2.0,
+    "H_zero": 1.6294166640156131,
+    "bits_zero": 1.8794166640156131
+  },
+  {
+    "config": "tubo kfac 2.5 g256 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 22.12755584716797,
+    "ppl": 21.316463470458984,
+    "bits": 2.2039927740891776,
+    "wbits": 2.0,
+    "H_zero": 1.6331916307503365,
+    "bits_zero": 1.837184404839514
+  },
+  {
+    "config": "Q kfac 3.0 g128 \u03b30.0",
+    "seed": 0,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 18.250064849853516,
+    "ppl": 17.574237823486328,
+    "bits": 2.75,
+    "wbits": 2.5,
+    "H_zero": 2.138035861888667,
+    "bits_zero": 2.388035861888667
+  },
+  {
+    "config": "tubo kfac 3.0 g256 \u03b30.0",
+    "seed": 0,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 17.51667022705078,
+    "ppl": 16.90157127380371,
+    "bits": 2.704045719570584,
+    "wbits": 2.5,
+    "H_zero": 2.17048051780625,
+    "bits_zero": 2.3745262373768337
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 r8 a0.7 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 36.330047607421875,
+    "ppl": 34.93397521972656,
+    "bits": 2.713336991675106,
+    "wbits": 2.5,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.2460745407901768,
+    "bits_zero": 2.4594115324652828
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 r32 a0.7 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 34.54947280883789,
+    "ppl": 33.112213134765625,
+    "bits": 2.8552931797357255,
+    "wbits": 2.5,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.3276035692386916,
+    "bits_zero": 2.682896748974417
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g128 r16 a0.7 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 35.45382308959961,
+    "ppl": 34.045318603515625,
+    "bits": 2.8859711399784795,
+    "wbits": 2.5,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.309780567488022,
+    "bits_zero": 2.6957517074665014
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g64 r16 a0.7 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 34.177581787109375,
+    "ppl": 32.80278015136719,
+    "bits": 3.13622780788092,
+    "wbits": 2.5,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.3285386961820045,
+    "bits_zero": 2.9647665040629243
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 r16 a0.4 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 37.01517105102539,
+    "ppl": 35.66625213623047,
+    "bits": 2.7606660112922574,
+    "wbits": 2.5,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.359726138269728,
+    "bits_zero": 2.6203921495619853
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 r16 a0.7 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 35.60169982910156,
+    "ppl": 34.156639099121094,
+    "bits": 2.7607183809633606,
+    "wbits": 2.5,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.2852634740312427,
+    "bits_zero": 2.5459818549946034
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 r8 a0.7 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.405824661254883,
+    "ppl": 30.166271209716797,
+    "bits": 3.213393199590989,
+    "wbits": 3.0,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.738524176706284,
+    "bits_zero": 2.951917376297273
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 r32 a0.7 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.960525512695312,
+    "ppl": 29.705215454101562,
+    "bits": 3.3554806179470487,
+    "wbits": 3.0,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.8257489521747603,
+    "bits_zero": 3.181229570121809
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g128 r16 a0.7 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.245338439941406,
+    "ppl": 30.008865356445312,
+    "bits": 3.38607288878641,
+    "wbits": 3.0,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.8081887660563485,
+    "bits_zero": 3.1942616548427587
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g64 r16 a0.7 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.987302780151367,
+    "ppl": 29.77657699584961,
+    "bits": 3.63640417876067,
+    "wbits": 3.0,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.837058486248873,
+    "bits_zero": 3.473462665009543
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 r16 a0.4 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.81165313720703,
+    "ppl": 30.557218551635742,
+    "bits": 3.2608200826762634,
+    "wbits": 3.0,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.845329712467284,
+    "bits_zero": 3.1061497951435473
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 r16 a0.7 val",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.57268714904785,
+    "ppl": 30.31815528869629,
+    "bits": 3.260838638117284,
+    "wbits": 3.0,
+    "git": {
+      "commit": "f5eb63d",
+      "dirty": false
+    },
+    "H_zero": 2.7845917257683728,
+    "bits_zero": 3.045430363885657
+  },
+  {
+    "config": "Q admmH kfac 3.0 g128 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 17.416006088256836,
+    "ppl": 16.79743766784668,
+    "bits": 2.75,
+    "wbits": 2.5,
+    "git": {
+      "commit": "04b704f",
+      "dirty": false
+    },
+    "H_zero": 2.1978607287177696,
+    "bits_zero": 2.4478607287177696
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 17.265541076660156,
+    "ppl": 16.650100708007812,
+    "bits": 2.7040325552225113,
+    "wbits": 2.5,
+    "git": {
+      "commit": "04b704f",
+      "dirty": false
+    },
+    "H_zero": 2.250661515039253,
+    "bits_zero": 2.4546940702617643
+  },
+  {
+    "config": "Q admmH kfac 3.5 g128 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 16.203125,
+    "ppl": 15.649619102478027,
+    "bits": 3.25,
+    "wbits": 3.0,
+    "git": {
+      "commit": "04b704f",
+      "dirty": false
+    },
+    "H_zero": 2.6751442323847976,
+    "bits_zero": 2.9251442323847976
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 \u03b30.0",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 16.014097213745117,
+    "ppl": 15.472366333007812,
+    "bits": 3.2040412194199033,
+    "wbits": 3.0,
+    "git": {
+      "commit": "1b6e233",
+      "dirty": false
+    },
+    "H_zero": 2.741287934256197,
+    "bits_zero": 2.9453291536761004
+  },
+  {
+    "config": "fp16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "ppl_val": 28.800233840942383,
+    "ppl": 27.654335021972656,
+    "bits": 16.0,
+    "git": {
+      "commit": "6a7a94a",
+      "dirty": false
+    }
+  },
+  {
+    "config": "fp16",
+    "seed": 42,
+    "model": "facebook/opt-1.3b",
+    "ppl_val": 15.125113487243652,
+    "ppl": 14.623723030090332,
+    "bits": 16.0,
+    "git": {
+      "commit": "6a7a94a",
+      "dirty": false
+    }
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 rep1",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 35.8355827331543,
+    "ppl": 34.399574279785156,
+    "bits": 2.76075146522051,
+    "wbits": 2.5,
+    "git": {
+      "commit": "6a7a94a",
+      "dirty": false
+    },
+    "H_zero": 2.295439028171691,
+    "bits_zero": 2.5561904933922013
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 rep2",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 35.58916473388672,
+    "ppl": 34.226280212402344,
+    "bits": 2.7607193228639204,
+    "wbits": 2.5,
+    "git": {
+      "commit": "6a7a94a",
+      "dirty": false
+    },
+    "H_zero": 2.2837881231439594,
+    "bits_zero": 2.54450744600788
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 rep1",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.31545066833496,
+    "ppl": 30.090187072753906,
+    "bits": 3.2608539440013744,
+    "wbits": 3.0,
+    "git": {
+      "commit": "07f67b8",
+      "dirty": false
+    },
+    "H_zero": 2.7842711392287884,
+    "bits_zero": 3.045125083230163
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 rep2",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.785686492919922,
+    "ppl": 30.524837493896484,
+    "bits": 3.260812947779526,
+    "wbits": 3.0,
+    "git": {
+      "commit": "07f67b8",
+      "dirty": false
+    },
+    "H_zero": 2.78090440705686,
+    "bits_zero": 3.041717354836386
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 r8 a0.7 val",
+    "seed": 0,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 36.30678939819336,
+    "ppl": 34.884788513183594,
+    "bits": 2.7133576428448714,
+    "wbits": 2.5,
+    "git": {
+      "commit": "07f67b8",
+      "dirty": false
+    },
+    "H_zero": 2.25334796818454,
+    "bits_zero": 2.466705611029411
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 r16 a0.7 val",
+    "seed": 0,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 35.963165283203125,
+    "ppl": 34.44375228881836,
+    "bits": 2.7607013796582636,
+    "wbits": 2.5,
+    "git": {
+      "commit": "07f67b8",
+      "dirty": false
+    },
+    "H_zero": 2.283656609296152,
+    "bits_zero": 2.5443579889544155
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 r8 a0.7 val",
+    "seed": 0,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.726713180541992,
+    "ppl": 30.517175674438477,
+    "bits": 3.2134292037398726,
+    "wbits": 3.0,
+    "git": {
+      "commit": "a5c379a",
+      "dirty": false
+    },
+    "H_zero": 2.7325159353676063,
+    "bits_zero": 2.945945139107479
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 r16 a0.7 val",
+    "seed": 0,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.620742797851562,
+    "ppl": 30.37912368774414,
+    "bits": 3.260847044579777,
+    "wbits": 3.0,
+    "git": {
+      "commit": "a5c379a",
+      "dirty": false
+    },
+    "H_zero": 2.775893366600879,
+    "bits_zero": 3.0367404111806557
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 r8 a0.7 val",
+    "seed": 1,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 36.32074737548828,
+    "ppl": 34.87700271606445,
+    "bits": 2.7133507434232733,
+    "wbits": 2.5,
+    "git": {
+      "commit": "a5c379a",
+      "dirty": false
+    },
+    "H_zero": 2.268339946688355,
+    "bits_zero": 2.4816906901116282
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 r16 a0.7 val",
+    "seed": 1,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 36.24058532714844,
+    "ppl": 34.69598388671875,
+    "bits": 2.7607317088562766,
+    "wbits": 2.5,
+    "git": {
+      "commit": "c38f717",
+      "dirty": false
+    },
+    "H_zero": 2.2762901148182015,
+    "bits_zero": 2.537021823674478
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 r8 a0.7 val",
+    "seed": 1,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.662784576416016,
+    "ppl": 30.38166618347168,
+    "bits": 3.213419266688971,
+    "wbits": 3.0,
+    "git": {
+      "commit": "c38f717",
+      "dirty": false
+    },
+    "H_zero": 2.7375030669084217,
+    "bits_zero": 2.9509223335973926
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 r16 a0.7 val",
+    "seed": 1,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.46722412109375,
+    "ppl": 30.194059371948242,
+    "bits": 3.260839909683039,
+    "wbits": 3.0,
+    "git": {
+      "commit": "c38f717",
+      "dirty": false
+    },
+    "H_zero": 2.7842306370878394,
+    "bits_zero": 3.0450705467708783
+  },
+  {
+    "config": "srr admmH kfac 3.0 g256 r4 L16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 37.411346435546875,
+    "ppl": 35.87283706665039,
+    "bits": 2.75,
+    "wbits": 2.5,
+    "git": {
+      "commit": "c38f717",
+      "dirty": false
+    },
+    "H_zero": 2.1515275405663563,
+    "bits_zero": 2.4015275405663563
+  },
+  {
+    "config": "srr admmH kfac 3.0 g256 r8 L8",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 37.92998504638672,
+    "ppl": 36.26887130737305,
+    "bits": 2.7504340277777777,
+    "wbits": 2.5,
+    "git": {
+      "commit": "c38f717",
+      "dirty": false
+    },
+    "H_zero": 2.170525610915989,
+    "bits_zero": 2.4209596386937666
+  },
+  {
+    "config": "srr admmH kfac 3.0 g256 r16 L16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 37.664955139160156,
+    "ppl": 36.13705062866211,
+    "bits": 3.125,
+    "wbits": 2.5,
+    "git": {
+      "commit": "c38f717",
+      "dirty": false
+    },
+    "H_zero": 2.1753860181779707,
+    "bits_zero": 2.8003860181779707
+  },
+  {
+    "config": "srr admmH kfac 3.5 g256 r4 L16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 32.49261474609375,
+    "ppl": 31.212116241455078,
+    "bits": 3.25,
+    "wbits": 3.0,
+    "git": {
+      "commit": "b05843d",
+      "dirty": false
+    },
+    "H_zero": 2.6379273460949855,
+    "bits_zero": 2.8879273460949855
+  },
+  {
+    "config": "srr admmH kfac 3.5 g256 r8 L8",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 32.597862243652344,
+    "ppl": 31.339088439941406,
+    "bits": 3.2504340277777777,
+    "wbits": 3.0,
+    "git": {
+      "commit": "b05843d",
+      "dirty": false
+    },
+    "H_zero": 2.6390651714697984,
+    "bits_zero": 2.889499199247576
+  },
+  {
+    "config": "srr admmH kfac 3.5 g256 r16 L16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 32.061153411865234,
+    "ppl": 30.856664657592773,
+    "bits": 3.625,
+    "wbits": 3.0,
+    "git": {
+      "commit": "b05843d",
+      "dirty": false
+    },
+    "H_zero": 2.647251907585003,
+    "bits_zero": 3.272251907585003
+  },
+  {
+    "config": "srr admmH kfac 2.5 g256 r4 L16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 57.762306213378906,
+    "ppl": 55.04479217529297,
+    "bits": 2.25,
+    "wbits": 2.0,
+    "git": {
+      "commit": "6dd89df",
+      "dirty": false
+    },
+    "H_zero": 1.667345116133719,
+    "bits_zero": 1.917345116133719
+  },
+  {
+    "config": "srr admmH kfac 2.5 g256 r8 L8",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 56.78944778442383,
+    "ppl": 54.16268539428711,
+    "bits": 2.2504340277777777,
+    "wbits": 2.0,
+    "git": {
+      "commit": "6dd89df",
+      "dirty": false
+    },
+    "H_zero": 1.6688910524095715,
+    "bits_zero": 1.9193250801873492
+  },
+  {
+    "config": "srr admmH kfac 2.5 g256 r16 L16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 47.473663330078125,
+    "ppl": 45.59492111206055,
+    "bits": 2.625,
+    "wbits": 2.0,
+    "git": {
+      "commit": "6dd89df",
+      "dirty": false
+    },
+    "H_zero": 1.6712275186992638,
+    "bits_zero": 2.296227518699264
+  },
+  {
+    "config": "srr admmH kfac 4.0 g256 r4 L16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.540117263793945,
+    "ppl": 29.297353744506836,
+    "bits": 3.75,
+    "wbits": 3.5,
+    "git": {
+      "commit": "899606b",
+      "dirty": false
+    },
+    "H_zero": 3.087213858467662,
+    "bits_zero": 3.337213858467662
+  },
+  {
+    "config": "srr admmH kfac 4.0 g256 r8 L8",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.49566078186035,
+    "ppl": 29.280601501464844,
+    "bits": 3.7504340277777777,
+    "wbits": 3.5,
+    "git": {
+      "commit": "899606b",
+      "dirty": false
+    },
+    "H_zero": 3.0953029965955126,
+    "bits_zero": 3.3457370243732902
+  },
+  {
+    "config": "srr admmH kfac 4.0 g256 r16 L16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.282569885253906,
+    "ppl": 29.098981857299805,
+    "bits": 4.125,
+    "wbits": 3.5,
+    "git": {
+      "commit": "899606b",
+      "dirty": false
+    },
+    "H_zero": 3.10224119839318,
+    "bits_zero": 3.72724119839318
+  },
+  {
+    "config": "srr admmH kfac 4.5 g256 r4 L16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 29.64934539794922,
+    "ppl": 28.471338272094727,
+    "bits": 4.25,
+    "wbits": 4.0,
+    "git": {
+      "commit": "cd68516",
+      "dirty": false
+    },
+    "H_zero": 3.5488049446594183,
+    "bits_zero": 3.7988049446594183
+  },
+  {
+    "config": "srr admmH kfac 4.5 g256 r8 L8",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 29.471881866455078,
+    "ppl": 28.331867218017578,
+    "bits": 4.250434027777778,
+    "wbits": 4.0,
+    "git": {
+      "commit": "cd68516",
+      "dirty": false
+    },
+    "H_zero": 3.5596409984350634,
+    "bits_zero": 3.810075026212841
+  },
+  {
+    "config": "srr admmH kfac 4.5 g256 r16 L16",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 29.519575119018555,
+    "ppl": 28.37339973449707,
+    "bits": 4.625,
+    "wbits": 4.0,
+    "git": {
+      "commit": "cd68516",
+      "dirty": false
+    },
+    "H_zero": 3.563735422458015,
+    "bits_zero": 4.188735422458015
+  },
+  {
+    "config": "fp16 +c4kl",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "ppl_val": 28.800233840942383,
+    "ppl": 27.654335021972656,
+    "bits": 16.0,
+    "git": {
+      "commit": "8eeeb06",
+      "dirty": false
+    },
+    "ppl_c4": 26.563274383544922,
+    "kl": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.0 g128 \u03b30.0 +c4kl",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 37.137451171875,
+    "ppl": 35.631439208984375,
+    "bits": 2.75,
+    "wbits": 2.5,
+    "ppl_c4": 38.11579513549805,
+    "kl": 0.27732133492827415,
+    "git": {
+      "commit": "8eeeb06",
+      "dirty": false
+    },
+    "H_zero": 2.1916770272294035,
+    "bits_zero": 2.4416770272294035
+  },
+  {
+    "config": "tubo r8 admmH kfac 3.0 g256 +c4kl",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 36.190731048583984,
+    "ppl": 34.82448959350586,
+    "bits": 2.713336756199966,
+    "wbits": 2.5,
+    "ppl_c4": 37.142337799072266,
+    "kl": 0.2573154415403094,
+    "git": {
+      "commit": "8eeeb06",
+      "dirty": false
+    },
+    "H_zero": 2.2533293311379663,
+    "bits_zero": 2.4666660873379325
+  },
+  {
+    "config": "Q admmH kfac 3.5 g128 \u03b30.0 +c4kl",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 32.4229850769043,
+    "ppl": 31.175125122070312,
+    "bits": 3.25,
+    "wbits": 3.0,
+    "ppl_c4": 31.037019729614258,
+    "kl": 0.12499298011618001,
+    "git": {
+      "commit": "8eeeb06",
+      "dirty": false
+    },
+    "H_zero": 2.672541993273916,
+    "bits_zero": 2.922541993273916
+  },
+  {
+    "config": "tubo r8 admmH kfac 3.5 g256 +c4kl",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.819799423217773,
+    "ppl": 30.599884033203125,
+    "bits": 3.2134021240987893,
+    "wbits": 3.0,
+    "ppl_c4": 30.281291961669922,
+    "kl": 0.10980733335018159,
+    "git": {
+      "commit": "8eeeb06",
+      "dirty": false
+    },
+    "H_zero": 2.7416600486915605,
+    "bits_zero": 2.95506217279035
+  },
+  {
+    "config": "Q admmH kfac 4.0 g128 \u03b30.0 +c4kl",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.385034561157227,
+    "ppl": 29.205533981323242,
+    "bits": 3.75,
+    "wbits": 3.5,
+    "ppl_c4": 28.505407333374023,
+    "kl": 0.061252715012856895,
+    "git": {
+      "commit": "8eeeb06",
+      "dirty": false
+    },
+    "H_zero": 3.1389869322887716,
+    "bits_zero": 3.3889869322887716
+  },
+  {
+    "config": "tubo r8 admmH kfac 4.0 g256 +c4kl",
+    "seed": 42,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.15485191345215,
+    "ppl": 28.924945831298828,
+    "bits": 3.7135267375428,
+    "wbits": 3.5,
+    "ppl_c4": 28.178361892700195,
+    "kl": 0.05050039113100086,
+    "git": {
+      "commit": "8eeeb06",
+      "dirty": false
+    },
+    "H_zero": 3.2178165703958657,
+    "bits_zero": 3.4313433079386657
+  },
+  {
+    "config": "Q admmH kfac 3.0 g128 \u03b30.0 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 37.26847839355469,
+    "ppl": 35.86133575439453,
+    "bits": 2.75,
+    "wbits": 2.5,
+    "ppl_c4": 38.12234115600586,
+    "kl": 0.2875728900943484,
+    "git": {
+      "commit": "8eeeb06",
+      "dirty": false
+    },
+    "H_zero": 2.1809192354678952,
+    "bits_zero": 2.4309192354678952
+  },
+  {
+    "config": "tubo r8 admmH kfac 3.0 g256 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 36.25800323486328,
+    "ppl": 34.69114685058594,
+    "bits": 2.7133136325412326,
+    "wbits": 2.5,
+    "ppl_c4": 37.21211624145508,
+    "kl": 0.26113903128675053,
+    "git": {
+      "commit": "8eeeb06",
+      "dirty": false
+    },
+    "H_zero": 2.2450034385580286,
+    "bits_zero": 2.4583170710992612
+  },
+  {
+    "config": "Q admmH kfac 3.5 g128 \u03b30.0 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 32.55978775024414,
+    "ppl": 31.346084594726562,
+    "bits": 3.25,
+    "wbits": 3.0,
+    "ppl_c4": 30.918848037719727,
+    "kl": 0.12575470773237094,
+    "git": {
+      "commit": "8b9aa75",
+      "dirty": false
+    },
+    "H_zero": 2.6730446732551743,
+    "bits_zero": 2.9230446732551743
+  },
+  {
+    "config": "tubo r8 admmH kfac 3.5 g256 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.466720581054688,
+    "ppl": 30.20965003967285,
+    "bits": 3.2134164409872925,
+    "wbits": 3.0,
+    "ppl_c4": 30.379638671875,
+    "kl": 0.1076307862997055,
+    "git": {
+      "commit": "8b9aa75",
+      "dirty": false
+    },
+    "H_zero": 2.7415151933029565,
+    "bits_zero": 2.954931634290249
+  },
+  {
+    "config": "Q admmH kfac 4.0 g128 \u03b30.0 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.424461364746094,
+    "ppl": 29.238967895507812,
+    "bits": 3.75,
+    "wbits": 3.5,
+    "ppl_c4": 28.500732421875,
+    "kl": 0.06183383502066135,
+    "git": {
+      "commit": "a16739b",
+      "dirty": false
+    },
+    "H_zero": 3.1395658297698965,
+    "bits_zero": 3.3895658297698965
+  },
+  {
+    "config": "tubo r8 admmH kfac 4.0 g256 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.00076675415039,
+    "ppl": 28.744325637817383,
+    "bits": 3.7135595156822676,
+    "wbits": 3.5,
+    "ppl_c4": 28.127243041992188,
+    "kl": 0.05065395033785275,
+    "git": {
+      "commit": "a16739b",
+      "dirty": false
+    },
+    "H_zero": 3.2183794116769966,
+    "bits_zero": 3.431938927359264
+  },
+  {
+    "config": "Q admmH kfac 3.0 g128 \u03b30.0 +c4kl",
+    "seed": 1,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 37.85416030883789,
+    "ppl": 36.144615173339844,
+    "bits": 2.75,
+    "wbits": 2.5,
+    "ppl_c4": 38.01531219482422,
+    "kl": 0.27510443329811096,
+    "git": {
+      "commit": "d4fb18c",
+      "dirty": false
+    },
+    "H_zero": 2.195670613673635,
+    "bits_zero": 2.445670613673635
+  },
+  {
+    "config": "tubo r8 admmH kfac 3.0 g256 +c4kl",
+    "seed": 1,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 36.04905319213867,
+    "ppl": 34.534210205078125,
+    "bits": 2.7133223451214072,
+    "wbits": 2.5,
+    "ppl_c4": 36.76805877685547,
+    "kl": 0.24772955892341478,
+    "git": {
+      "commit": "d4fb18c",
+      "dirty": false
+    },
+    "H_zero": 2.260672211743803,
+    "bits_zero": 2.47399455686521
+  },
+  {
+    "config": "Q admmH kfac 3.5 g128 \u03b30.0 +c4kl",
+    "seed": 1,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 32.6819953918457,
+    "ppl": 31.42753028869629,
+    "bits": 3.25,
+    "wbits": 3.0,
+    "ppl_c4": 31.03524398803711,
+    "kl": 0.12664226868322917,
+    "git": {
+      "commit": "55f71f8",
+      "dirty": false
+    },
+    "H_zero": 2.673070169118626,
+    "bits_zero": 2.923070169118626
+  },
+  {
+    "config": "tubo r8 admmH kfac 3.5 g256 +c4kl",
+    "seed": 1,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 31.9816951751709,
+    "ppl": 30.68709373474121,
+    "bits": 3.2133769518063393,
+    "wbits": 3.0,
+    "ppl_c4": 30.573673248291016,
+    "kl": 0.1128263593252216,
+    "git": {
+      "commit": "55f71f8",
+      "dirty": false
+    },
+    "H_zero": 2.7424571756821146,
+    "bits_zero": 2.955834127488454
+  },
+  {
+    "config": "Q admmH kfac 4.0 g128 \u03b30.0 +c4kl",
+    "seed": 1,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.49663543701172,
+    "ppl": 29.311662673950195,
+    "bits": 3.75,
+    "wbits": 3.5,
+    "ppl_c4": 28.549917221069336,
+    "kl": 0.062235644991908756,
+    "git": {
+      "commit": "55f71f8",
+      "dirty": false
+    },
+    "H_zero": 3.1401759112309082,
+    "bits_zero": 3.3901759112309082
+  },
+  {
+    "config": "tubo r8 admmH kfac 4.0 g256 +c4kl",
+    "seed": 1,
+    "model": "facebook/opt-125m",
+    "gamma": 0.0,
+    "ppl_val": 30.08685874938965,
+    "ppl": 28.875349044799805,
+    "bits": 3.7134300043553483,
+    "wbits": 3.5,
+    "ppl_c4": 28.153650283813477,
+    "kl": 0.050641316867300445,
+    "git": {
+      "commit": "55f71f8",
+      "dirty": false
+    },
+    "H_zero": 3.2177147648754167,
+    "bits_zero": 3.431144769230765
+  }
+]

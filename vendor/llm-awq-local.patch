@@ -1,0 +1,127 @@
+diff --git a/awq/quantize/__init__.py b/awq/quantize/__init__.py
+index 17ddad2..ccb13e5 100644
+--- a/awq/quantize/__init__.py
++++ b/awq/quantize/__init__.py
+@@ -1,2 +1,5 @@
+-from .w8a8_linear import *
++try:
++    from .w8a8_linear import *
++except ImportError:
++    pass
+ from .smooth import *
+diff --git a/awq/quantize/auto_scale.py b/awq/quantize/auto_scale.py
+index fe60490..300c895 100644
+--- a/awq/quantize/auto_scale.py
++++ b/awq/quantize/auto_scale.py
+@@ -109,14 +109,21 @@ def auto_scale_block(module, module_kwargs, w_bit, q_config, input_feat):
+     def _search_module_scale(block, linears2scale: list, x, kwargs={}):
+         # w: co, ci
+         # x: n, ci
+-        x = x.to(next(block.parameters()).device)
++        x_max = get_act_scale(x)
++        # Use a subset of sequences for output comparison to avoid attention OOM on large batch sizes
++        dev = next(block.parameters()).device
++        if x.shape[0] > 4:
++            x_eval = x[:4].to(dev)
++            eval_kwargs = {k: v[:4].to(dev) if isinstance(v, torch.Tensor) and v.shape[0] == x.shape[0] else v for k, v in kwargs.items()}
++        else:
++            x_eval = x.to(dev)
++            eval_kwargs = kwargs
++
+         with torch.no_grad():
+-            org_out = block(x, **kwargs)
++            org_out = block(x_eval, **eval_kwargs)
+             if isinstance(org_out, tuple):
+                 org_out = org_out[0]
+ 
+-        x_max = get_act_scale(x)
+-
+         best_error = float("inf")
+         best_ratio = -1
+         best_scales = None
+@@ -131,8 +138,8 @@ def auto_scale_block(module, module_kwargs, w_bit, q_config, input_feat):
+             scales = scales / (scales.max() * scales.min()).sqrt()
+             for fc in linears2scale:
+                 fc.weight.mul_(scales.view(1, -1).to(fc.weight.device))
+-                fc.weight.data = w_quantize_func(fc.weight.data) / (scales.view(1, -1))
+-            out = block(x, **kwargs)
++                fc.weight.data = w_quantize_func(fc.weight.data) / (scales.view(1, -1).to(fc.weight.device))
++            out = block(x_eval, **eval_kwargs)
+             if isinstance(out, tuple):
+                 out = out[0]
+ 
+diff --git a/awq/quantize/pre_quant.py b/awq/quantize/pre_quant.py
+index 23a5ecb..6c7bf71 100644
+--- a/awq/quantize/pre_quant.py
++++ b/awq/quantize/pre_quant.py
+@@ -12,7 +12,8 @@ from transformers.models.llama.modeling_llama import LlamaForCausalLM
+ try:
+     from tinychat.models import LlavaLlamaForCausalLM
+ except ImportError as e:
+-    pass
++    class LlavaLlamaForCausalLM:
++        pass
+ 
+ from transformers.models.qwen2.modeling_qwen2 import Qwen2ForCausalLM
+ 
+@@ -120,10 +121,14 @@ def run_awq(
+ 
+     layers = get_blocks(model)
+ 
+-    samples = get_calib_dataset(
+-        data=calib_data, tokenizer=enc, n_samples=n_samples, block_size=seqlen
+-    )
+-    samples = torch.cat(samples, dim=0)
++    if isinstance(calib_data, (list, tuple, torch.Tensor)):
++        samples = calib_data
++    else:
++        samples = get_calib_dataset(
++            data=calib_data, tokenizer=enc, n_samples=n_samples, block_size=seqlen
++        )
++    if isinstance(samples, (list, tuple)):
++        samples = torch.cat(samples, dim=0)
+ 
+     inps = []
+     layer_kwargs = {}
+@@ -190,9 +195,22 @@ def run_awq(
+                     functools.partial(cache_input_hook, name=name, feat_dict=input_feat)
+                 )
+             )
+-        inps = inps.to(next(layer.parameters()).device)  # in case multi-gpu
+-        # get output as next layer's input
+-        inps = layer(inps, **layer_kwargs)[0]
++        # get output as next layer's input (in mini-batches to prevent attention matrix OOM)
++        outs = []
++        mb_size = 4
++        for mb_idx in range(0, inps.shape[0], mb_size):
++            mb_inps = inps[mb_idx : mb_idx + mb_size].to(next(layer.parameters()).device)
++            mb_kwargs = {}
++            for k, v in layer_kwargs.items():
++                if isinstance(v, torch.Tensor) and v.shape[0] == inps.shape[0]:
++                    mb_kwargs[k] = v[mb_idx : mb_idx + mb_size].to(next(layer.parameters()).device)
++                else:
++                    mb_kwargs[k] = v
++            mb_out = layer(mb_inps, **mb_kwargs)
++            if isinstance(mb_out, tuple):
++                mb_out = mb_out[0]
++            outs.append(mb_out.cpu())
++        inps = torch.cat(outs, dim=0)
+         for h in handles:
+             h.remove()
+         # now solve for scaling and clipping
+diff --git a/awq/quantize/qmodule.py b/awq/quantize/qmodule.py
+index d7b477c..a267d16 100644
+--- a/awq/quantize/qmodule.py
++++ b/awq/quantize/qmodule.py
+@@ -1,7 +1,9 @@
+-import math
+ import torch
+ import torch.nn as nn
+-import awq_inference_engine  # with CUDA kernels
++try:
++    import awq_inference_engine  # with CUDA kernels
++except ImportError:
++    awq_inference_engine = None
+ 
+ 
+ def make_divisible(c, divisor):

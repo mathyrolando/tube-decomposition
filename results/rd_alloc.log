@@ -1,0 +1,111 @@
+/opt/amdgpu/share/libdrm/amdgpu.ids: No such file or directory
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+CUDA extension not installed.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 42620.20it/s]
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Flash Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:287.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Mem Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:338.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+[OK] curvas del bloque 0 en 21.7s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 50278.56it/s]
+[OK] curvas del bloque 1 en 23.5s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 43561.68it/s]
+[OK] curvas del bloque 2 en 25.7s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 49180.28it/s]
+[OK] curvas del bloque 3 en 28.0s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 48667.56it/s]
+[OK] curvas del bloque 4 en 30.3s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 40139.81it/s]
+[OK] curvas del bloque 5 en 32.5s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 47772.77it/s]
+[OK] curvas del bloque 6 en 35.3s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 45565.12it/s]
+[OK] curvas del bloque 7 en 37.5s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 44918.61it/s]
+[OK] curvas del bloque 8 en 39.1s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 41598.85it/s]
+[OK] curvas del bloque 9 en 40.7s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 44613.03it/s]
+[OK] curvas del bloque 10 en 43.0s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 47864.10it/s]
+[OK] curvas del bloque 11 en 45.2s
+
+[control] presupuesto 3.5: bits 3.500, costo predicho 49.64, b medio {'fc1': 3.0, 'fc2': 3.0, 'k_proj': 3.0, 'out_proj': 3.0, 'q_proj': 3.0, 'v_proj': 3.0}
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 39772.70it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[control] bits_pipeline None PPL 31.423
+
+[kfac] presupuesto 2.5: bits 2.500, costo predicho 207.9, b medio {'fc1': 2.0, 'fc2': 2.0, 'k_proj': 2.0, 'out_proj': 2.0, 'q_proj': 2.0, 'v_proj': 2.0}
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 40065.84it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[kfac] bits_pipeline None PPL 58.066
+
+[kfac] presupuesto 3.0: bits 3.000, costo predicho 44.58, b medio {'fc1': 2.5, 'fc2': 2.0, 'k_proj': 2.75, 'out_proj': 2.1666666666666665, 'q_proj': 2.5833333333333335, 'v_proj': 4.5}
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 46780.16it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[kfac] bits_pipeline None PPL 36.246
+
+[kfac] presupuesto 3.25: bits 3.250, costo predicho 30.93, b medio {'fc1': 2.75, 'fc2': 2.3333333333333335, 'k_proj': 2.8333333333333335, 'out_proj': 2.5, 'q_proj': 2.6666666666666665, 'v_proj': 4.666666666666667}
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 44847.91it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[kfac] bits_pipeline None PPL 33.235
+
+[kfac] presupuesto 3.5: bits 3.500, costo predicho 21.05, b medio {'fc1': 2.9166666666666665, 'fc2': 2.5833333333333335, 'k_proj': 3.1666666666666665, 'out_proj': 2.9166666666666665, 'q_proj': 2.9166666666666665, 'v_proj': 5.0}
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 38241.21it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[kfac] bits_pipeline None PPL 30.981
+
+[plano] presupuesto 3.5: bits 3.500, costo predicho 47.34, b medio {'fc1': 2.6666666666666665, 'fc2': 2.0, 'k_proj': 5.666666666666667, 'out_proj': 2.0833333333333335, 'q_proj': 5.666666666666667, 'v_proj': 3.9166666666666665}
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 44772.58it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[plano] bits_pipeline None PPL 35.047
+
+[kfac] presupuesto 4.0: bits 4.000, costo predicho 10.34, b medio {'fc1': 3.5, 'fc2': 3.0, 'k_proj': 3.75, 'out_proj': 3.3333333333333335, 'q_proj': 3.3333333333333335, 'v_proj': 5.583333333333333}
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 48889.29it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[kfac] bits_pipeline None PPL 29.079
+
+[kfac] presupuesto 4.5: bits 4.500, costo predicho 5.199, b medio {'fc1': 3.9166666666666665, 'fc2': 3.5833333333333335, 'k_proj': 4.25, 'out_proj': 4.0, 'q_proj': 3.9166666666666665, 'v_proj': 5.833333333333333}
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 46091.25it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[kfac] bits_pipeline None PPL 28.333

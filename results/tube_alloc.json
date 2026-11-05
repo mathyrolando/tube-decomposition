@@ -1,0 +1,42 @@
+[
+  {
+    "variant": "control_b3",
+    "budget": 3.5,
+    "seed": 42,
+    "alpha_min": 0.7,
+    "bits": null,
+    "ppl": 30.362173080444336
+  },
+  {
+    "variant": "tube_kfac",
+    "budget": 3.25,
+    "seed": 42,
+    "alpha_min": 0.7,
+    "bits": null,
+    "ppl": 31.838825225830078
+  },
+  {
+    "variant": "tube_kfac",
+    "budget": 3.5,
+    "seed": 42,
+    "alpha_min": 0.7,
+    "bits": null,
+    "ppl": 30.23283576965332
+  },
+  {
+    "variant": "tube_kfac",
+    "budget": 4.0,
+    "seed": 42,
+    "alpha_min": 0.7,
+    "bits": null,
+    "ppl": 28.61029624938965
+  },
+  {
+    "variant": "tube_kfac",
+    "budget": 4.5,
+    "seed": 42,
+    "alpha_min": 0.7,
+    "bits": null,
+    "ppl": 28.05379295349121
+  }
+]

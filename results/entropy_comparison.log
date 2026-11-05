@@ -1,0 +1,63 @@
+Q b3 g64: tasa fija 3.500 H_zero 2.738 H_grp 2.795 bits_ent 3.238 PPL 31.423
+Q b3 g128: tasa fija 3.250 H_zero 2.668 H_grp 2.710 bits_ent 2.918 PPL 32.112
+Q b3 g256: tasa fija 3.125 H_zero 2.594 H_grp 2.627 bits_ent 2.719 PPL 33.972
+Q b3 g1024: tasa fija 3.031 H_zero 2.437 H_grp 2.461 bits_ent 2.468 PPL 36.901
+Q b4 g64: tasa fija 4.500 H_zero 3.684 H_grp 3.754 bits_ent 4.184 PPL 28.644
+Q b4 g128: tasa fija 4.250 H_zero 3.597 H_grp 3.645 bits_ent 3.847 PPL 29.224
+Q b4 g256: tasa fija 4.125 H_zero 3.525 H_grp 3.564 bits_ent 3.650 PPL 28.982
+Q b4 g1024: tasa fija 4.031 H_zero 3.404 H_grp 3.436 bits_ent 3.436 PPL 29.927
+Q b5 g1024: tasa fija 5.031 H_zero 4.308 H_grp 4.340 bits_ent 4.339 PPL 28.136
+Q kfac 3.5: tasa fija 3.500 H_zero 2.728 H_grp 2.785 bits_ent 3.228 PPL 30.981
+tubo kfac 3.5: tasa fija 3.636 H_zero 2.821 H_grp 2.887 bits_ent 3.458 PPL 30.388
+Q kfac 4.0: tasa fija 4.000 H_zero 3.217 H_grp 3.279 bits_ent 3.717 PPL 29.079
+tubo kfac 4.0: tasa fija 4.136 H_zero 3.323 H_grp 3.392 bits_ent 3.960 PPL 28.689
+Q kfac 4.5: tasa fija 4.500 H_zero 3.692 H_grp 3.761 bits_ent 4.192 PPL 28.333
+tubo kfac 4.5: tasa fija 4.636 H_zero 3.807 H_grp 3.882 bits_ent 4.443 PPL 28.039
+tubo b3 g64: tasa fija 3.636 H_zero 2.836 H_grp 2.903 bits_ent 3.473 PPL 30.556
+tubo b3 g256: tasa fija 3.261 H_zero 2.774 H_grp 2.815 bits_ent 3.034 PPL 31.465
+tubo b4 g256: tasa fija 4.261 H_zero 3.745 H_grp 3.788 bits_ent 4.005 PPL 28.488
+tubo solo S b3 g64: tasa fija 3.539 H_zero 2.764 H_grp 2.818 bits_ent 3.303 PPL 31.068
+tubo solo L b3 g64: tasa fija 3.595 H_zero 2.822 H_grp 2.887 bits_ent 3.417 PPL 30.507
+Q kfac 3.5 g256: tasa fija 3.125 H_zero 2.568 H_grp 2.600 bits_ent 2.693 PPL 33.628
+tubo kfac 3.5 g256: tasa fija 3.261 H_zero 2.749 H_grp 2.788 bits_ent 3.010 PPL 31.069
+Q kfac 4.0 g256: tasa fija 3.625 H_zero 3.052 H_grp 3.087 bits_ent 3.177 PPL 30.007
+tubo kfac 4.0 g256: tasa fija 3.761 H_zero 3.254 H_grp 3.293 bits_ent 3.515 PPL 29.155
+Q kfac 4.5 g256: tasa fija 4.125 H_zero 3.523 H_grp 3.560 bits_ent 3.648 PPL 28.961
+tubo kfac 4.5 g256: tasa fija 4.261 H_zero 3.742 H_grp 3.782 bits_ent 4.002 PPL 28.294
+tubo b3 g1024: tasa fija 3.166 H_zero 2.728 H_grp 2.766 bits_ent 2.894 PPL 31.413
+tubo b4 g1024: tasa fija 4.167 H_zero 3.704 H_grp 3.745 bits_ent 3.871 PPL 28.682
+tubo b5 g1024: tasa fija 5.167 H_zero 4.639 H_grp 4.673 bits_ent 4.806 PPL 28.035
+Q b3 g128: tasa fija 3.250 H_zero 2.669 H_grp 2.710 bits_ent 2.919 PPL 31.881
+Q b3 g256: tasa fija 3.125 H_zero 2.594 H_grp 2.627 bits_ent 2.719 PPL 32.836
+Q b3 g1024: tasa fija 3.031 H_zero 2.437 H_grp 2.461 bits_ent 2.468 PPL 37.082
+Q b4 g256: tasa fija 4.125 H_zero 3.525 H_grp 3.564 bits_ent 3.650 PPL 29.094
+Q b4 g1024: tasa fija 4.031 H_zero 3.404 H_grp 3.436 bits_ent 3.436 PPL 29.414
+Q b5 g1024: tasa fija 5.031 H_zero 4.308 H_grp 4.341 bits_ent 4.339 PPL 28.263
+tubo b3 g256: tasa fija 3.261 H_zero 2.774 H_grp 2.816 bits_ent 3.035 PPL 30.962
+tubo b4 g256: tasa fija 4.261 H_zero 3.745 H_grp 3.787 bits_ent 4.005 PPL 28.510
+Q kfac 3.5 g256: tasa fija 3.125 H_zero 2.568 H_grp 2.600 bits_ent 2.693 PPL 33.740
+tubo kfac 3.5 g256: tasa fija 3.261 H_zero 2.749 H_grp 2.788 bits_ent 3.010 PPL 31.016
+Q kfac 4.0 g256: tasa fija 3.625 H_zero 3.052 H_grp 3.087 bits_ent 3.177 PPL 29.892
+tubo kfac 4.0 g256: tasa fija 3.761 H_zero 3.254 H_grp 3.292 bits_ent 3.515 PPL 29.005
+Q kfac 4.5 g256: tasa fija 4.125 H_zero 3.523 H_grp 3.560 bits_ent 3.648 PPL 28.769
+tubo kfac 4.5 g256: tasa fija 4.261 H_zero 3.742 H_grp 3.782 bits_ent 4.003 PPL 28.369
+tubo b3 g1024: tasa fija 3.166 H_zero 2.727 H_grp 2.765 bits_ent 2.894 PPL 31.454
+tubo b4 g1024: tasa fija 4.167 H_zero 3.705 H_grp 3.746 bits_ent 3.872 PPL 28.658
+tubo b5 g1024: tasa fija 5.167 H_zero 4.639 H_grp 4.673 bits_ent 4.806 PPL 27.898
+Q b3 g128: tasa fija 3.250 H_zero 2.668 H_grp 2.710 bits_ent 2.918 PPL 31.909
+Q b3 g256: tasa fija 3.125 H_zero 2.594 H_grp 2.627 bits_ent 2.719 PPL 33.659
+Q b3 g1024: tasa fija 3.031 H_zero 2.437 H_grp 2.461 bits_ent 2.468 PPL 37.461
+Q b4 g256: tasa fija 4.125 H_zero 3.524 H_grp 3.563 bits_ent 3.649 PPL 28.855
+Q b4 g1024: tasa fija 4.031 H_zero 3.404 H_grp 3.436 bits_ent 3.436 PPL 29.442
+Q b5 g1024: tasa fija 5.031 H_zero 4.307 H_grp 4.340 bits_ent 4.339 PPL 28.283
+tubo b3 g256: tasa fija 3.261 H_zero 2.775 H_grp 2.816 bits_ent 3.035 PPL 31.184
+tubo b4 g256: tasa fija 4.261 H_zero 3.744 H_grp 3.787 bits_ent 4.005 PPL 28.601
+Q kfac 3.5 g256: tasa fija 3.125 H_zero 2.568 H_grp 2.600 bits_ent 2.693 PPL 33.806
+tubo kfac 3.5 g256: tasa fija 3.261 H_zero 2.749 H_grp 2.789 bits_ent 3.010 PPL 30.949
+Q kfac 4.0 g256: tasa fija 3.625 H_zero 3.052 H_grp 3.087 bits_ent 3.177 PPL 29.714
+tubo kfac 4.0 g256: tasa fija 3.761 H_zero 3.254 H_grp 3.292 bits_ent 3.515 PPL 28.790
+Q kfac 4.5 g256: tasa fija 4.125 H_zero 3.522 H_grp 3.560 bits_ent 3.647 PPL 28.808
+tubo kfac 4.5 g256: tasa fija 4.261 H_zero 3.741 H_grp 3.782 bits_ent 4.002 PPL 28.323
+tubo b3 g1024: tasa fija 3.166 H_zero 2.728 H_grp 2.766 bits_ent 2.894 PPL 31.920
+tubo b4 g1024: tasa fija 4.167 H_zero 3.704 H_grp 3.745 bits_ent 3.871 PPL 28.762
+tubo b5 g1024: tasa fija 5.167 H_zero 4.638 H_grp 4.672 bits_ent 4.805 PPL 27.940

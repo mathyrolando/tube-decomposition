@@ -1,0 +1,554 @@
+{
+  "model": "facebook/opt-125m",
+  "nsamples": 128,
+  "seed": 42,
+  "H": "modelo sin comprimir",
+  "kstar_summary": {
+    "r4": {
+      "mean": 2.0972222222222223,
+      "min": 0,
+      "max": 4,
+      "zeros": 5,
+      "n": 72
+    },
+    "r8": {
+      "mean": 4.319444444444445,
+      "min": 1,
+      "max": 8,
+      "zeros": 0,
+      "n": 72
+    },
+    "r16": {
+      "mean": 9.152777777777779,
+      "min": 3,
+      "max": 15,
+      "zeros": 0,
+      "n": 72
+    }
+  },
+  "kstar": [
+    {
+      "layer": 0,
+      "matrix": "self_attn.k_proj",
+      "r4": 4,
+      "r8": 8,
+      "r16": 15
+    },
+    {
+      "layer": 0,
+      "matrix": "self_attn.v_proj",
+      "r4": 2,
+      "r8": 6,
+      "r16": 11
+    },
+    {
+      "layer": 0,
+      "matrix": "self_attn.q_proj",
+      "r4": 4,
+      "r8": 8,
+      "r16": 15
+    },
+    {
+      "layer": 0,
+      "matrix": "self_attn.out_proj",
+      "r4": 3,
+      "r8": 6,
+      "r16": 11
+    },
+    {
+      "layer": 0,
+      "matrix": "fc1",
+      "r4": 3,
+      "r8": 6,
+      "r16": 12
+    },
+    {
+      "layer": 0,
+      "matrix": "fc2",
+      "r4": 2,
+      "r8": 6,
+      "r16": 9
+    },
+    {
+      "layer": 1,
+      "matrix": "self_attn.k_proj",
+      "r4": 4,
+      "r8": 8,
+      "r16": 15
+    },
+    {
+      "layer": 1,
+      "matrix": "self_attn.v_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 8
+    },
+    {
+      "layer": 1,
+      "matrix": "self_attn.q_proj",
+      "r4": 4,
+      "r8": 8,
+      "r16": 13
+    },
+    {
+      "layer": 1,
+      "matrix": "self_attn.out_proj",
+      "r4": 3,
+      "r8": 6,
+      "r16": 9
+    },
+    {
+      "layer": 1,
+      "matrix": "fc1",
+      "r4": 2,
+      "r8": 3,
+      "r16": 7
+    },
+    {
+      "layer": 1,
+      "matrix": "fc2",
+      "r4": 2,
+      "r8": 3,
+      "r16": 6
+    },
+    {
+      "layer": 2,
+      "matrix": "self_attn.k_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 10
+    },
+    {
+      "layer": 2,
+      "matrix": "self_attn.v_proj",
+      "r4": 0,
+      "r8": 2,
+      "r16": 9
+    },
+    {
+      "layer": 2,
+      "matrix": "self_attn.q_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 9
+    },
+    {
+      "layer": 2,
+      "matrix": "self_attn.out_proj",
+      "r4": 2,
+      "r8": 3,
+      "r16": 9
+    },
+    {
+      "layer": 2,
+      "matrix": "fc1",
+      "r4": 3,
+      "r8": 5,
+      "r16": 10
+    },
+    {
+      "layer": 2,
+      "matrix": "fc2",
+      "r4": 2,
+      "r8": 4,
+      "r16": 6
+    },
+    {
+      "layer": 3,
+      "matrix": "self_attn.k_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 11
+    },
+    {
+      "layer": 3,
+      "matrix": "self_attn.v_proj",
+      "r4": 0,
+      "r8": 3,
+      "r16": 8
+    },
+    {
+      "layer": 3,
+      "matrix": "self_attn.q_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 10
+    },
+    {
+      "layer": 3,
+      "matrix": "self_attn.out_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 7
+    },
+    {
+      "layer": 3,
+      "matrix": "fc1",
+      "r4": 3,
+      "r8": 5,
+      "r16": 10
+    },
+    {
+      "layer": 3,
+      "matrix": "fc2",
+      "r4": 2,
+      "r8": 3,
+      "r16": 7
+    },
+    {
+      "layer": 4,
+      "matrix": "self_attn.k_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 11
+    },
+    {
+      "layer": 4,
+      "matrix": "self_attn.v_proj",
+      "r4": 0,
+      "r8": 3,
+      "r16": 8
+    },
+    {
+      "layer": 4,
+      "matrix": "self_attn.q_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 10
+    },
+    {
+      "layer": 4,
+      "matrix": "self_attn.out_proj",
+      "r4": 1,
+      "r8": 3,
+      "r16": 7
+    },
+    {
+      "layer": 4,
+      "matrix": "fc1",
+      "r4": 3,
+      "r8": 5,
+      "r16": 10
+    },
+    {
+      "layer": 4,
+      "matrix": "fc2",
+      "r4": 2,
+      "r8": 2,
+      "r16": 6
+    },
+    {
+      "layer": 5,
+      "matrix": "self_attn.k_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 11
+    },
+    {
+      "layer": 5,
+      "matrix": "self_attn.v_proj",
+      "r4": 0,
+      "r8": 3,
+      "r16": 8
+    },
+    {
+      "layer": 5,
+      "matrix": "self_attn.q_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 10
+    },
+    {
+      "layer": 5,
+      "matrix": "self_attn.out_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 6
+    },
+    {
+      "layer": 5,
+      "matrix": "fc1",
+      "r4": 3,
+      "r8": 5,
+      "r16": 11
+    },
+    {
+      "layer": 5,
+      "matrix": "fc2",
+      "r4": 1,
+      "r8": 1,
+      "r16": 4
+    },
+    {
+      "layer": 6,
+      "matrix": "self_attn.k_proj",
+      "r4": 4,
+      "r8": 4,
+      "r16": 11
+    },
+    {
+      "layer": 6,
+      "matrix": "self_attn.v_proj",
+      "r4": 0,
+      "r8": 3,
+      "r16": 8
+    },
+    {
+      "layer": 6,
+      "matrix": "self_attn.q_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 11
+    },
+    {
+      "layer": 6,
+      "matrix": "self_attn.out_proj",
+      "r4": 1,
+      "r8": 4,
+      "r16": 8
+    },
+    {
+      "layer": 6,
+      "matrix": "fc1",
+      "r4": 2,
+      "r8": 5,
+      "r16": 11
+    },
+    {
+      "layer": 6,
+      "matrix": "fc2",
+      "r4": 1,
+      "r8": 2,
+      "r16": 3
+    },
+    {
+      "layer": 7,
+      "matrix": "self_attn.k_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 11
+    },
+    {
+      "layer": 7,
+      "matrix": "self_attn.v_proj",
+      "r4": 1,
+      "r8": 2,
+      "r16": 9
+    },
+    {
+      "layer": 7,
+      "matrix": "self_attn.q_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 10
+    },
+    {
+      "layer": 7,
+      "matrix": "self_attn.out_proj",
+      "r4": 1,
+      "r8": 3,
+      "r16": 6
+    },
+    {
+      "layer": 7,
+      "matrix": "fc1",
+      "r4": 2,
+      "r8": 5,
+      "r16": 11
+    },
+    {
+      "layer": 7,
+      "matrix": "fc2",
+      "r4": 1,
+      "r8": 3,
+      "r16": 4
+    },
+    {
+      "layer": 8,
+      "matrix": "self_attn.k_proj",
+      "r4": 3,
+      "r8": 6,
+      "r16": 12
+    },
+    {
+      "layer": 8,
+      "matrix": "self_attn.v_proj",
+      "r4": 1,
+      "r8": 2,
+      "r16": 7
+    },
+    {
+      "layer": 8,
+      "matrix": "self_attn.q_proj",
+      "r4": 2,
+      "r8": 5,
+      "r16": 11
+    },
+    {
+      "layer": 8,
+      "matrix": "self_attn.out_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 6
+    },
+    {
+      "layer": 8,
+      "matrix": "fc1",
+      "r4": 3,
+      "r8": 5,
+      "r16": 11
+    },
+    {
+      "layer": 8,
+      "matrix": "fc2",
+      "r4": 1,
+      "r8": 2,
+      "r16": 4
+    },
+    {
+      "layer": 9,
+      "matrix": "self_attn.k_proj",
+      "r4": 3,
+      "r8": 6,
+      "r16": 14
+    },
+    {
+      "layer": 9,
+      "matrix": "self_attn.v_proj",
+      "r4": 2,
+      "r8": 3,
+      "r16": 6
+    },
+    {
+      "layer": 9,
+      "matrix": "self_attn.q_proj",
+      "r4": 2,
+      "r8": 6,
+      "r16": 12
+    },
+    {
+      "layer": 9,
+      "matrix": "self_attn.out_proj",
+      "r4": 2,
+      "r8": 4,
+      "r16": 7
+    },
+    {
+      "layer": 9,
+      "matrix": "fc1",
+      "r4": 3,
+      "r8": 5,
+      "r16": 11
+    },
+    {
+      "layer": 9,
+      "matrix": "fc2",
+      "r4": 2,
+      "r8": 3,
+      "r16": 5
+    },
+    {
+      "layer": 10,
+      "matrix": "self_attn.k_proj",
+      "r4": 4,
+      "r8": 6,
+      "r16": 14
+    },
+    {
+      "layer": 10,
+      "matrix": "self_attn.v_proj",
+      "r4": 2,
+      "r8": 2,
+      "r16": 5
+    },
+    {
+      "layer": 10,
+      "matrix": "self_attn.q_proj",
+      "r4": 3,
+      "r8": 7,
+      "r16": 13
+    },
+    {
+      "layer": 10,
+      "matrix": "self_attn.out_proj",
+      "r4": 2,
+      "r8": 3,
+      "r16": 5
+    },
+    {
+      "layer": 10,
+      "matrix": "fc1",
+      "r4": 3,
+      "r8": 7,
+      "r16": 12
+    },
+    {
+      "layer": 10,
+      "matrix": "fc2",
+      "r4": 1,
+      "r8": 3,
+      "r16": 4
+    },
+    {
+      "layer": 11,
+      "matrix": "self_attn.k_proj",
+      "r4": 3,
+      "r8": 7,
+      "r16": 15
+    },
+    {
+      "layer": 11,
+      "matrix": "self_attn.v_proj",
+      "r4": 1,
+      "r8": 3,
+      "r16": 4
+    },
+    {
+      "layer": 11,
+      "matrix": "self_attn.q_proj",
+      "r4": 3,
+      "r8": 7,
+      "r16": 15
+    },
+    {
+      "layer": 11,
+      "matrix": "self_attn.out_proj",
+      "r4": 3,
+      "r8": 5,
+      "r16": 9
+    },
+    {
+      "layer": 11,
+      "matrix": "fc1",
+      "r4": 2,
+      "r8": 5,
+      "r16": 11
+    },
+    {
+      "layer": 11,
+      "matrix": "fc2",
+      "r4": 2,
+      "r8": 3,
+      "r16": 4
+    }
+  ],
+  "probe": {
+    "layer": 3,
+    "matrix": "self_attn.k_proj",
+    "wbits": 3,
+    "groupsize": 256,
+    "quantizer": "admm_h",
+    "rank": 16,
+    "functional_error": {
+      "Q sola": 28.95703379313151,
+      "SRR r16 L16": 18.334227244059246,
+      "SRR r16 L8": 19.15069580078125,
+      "SRR r16 L4": 180.9969685872396,
+      "SRR r16 L3": 607.6173502604166
+    }
+  },
+  "git": {
+    "commit": "a16739b",
+    "dirty": false
+  }
+}

@@ -1,0 +1,223 @@
+/opt/amdgpu/share/libdrm/amdgpu.ids: No such file or directory
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+CUDA extension not installed.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 46522.04it/s]
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Flash Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:287.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Mem Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:338.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+
+=======================================================
+ Ejecutando modo: triad_quant_only
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 42] Q b3 g64: bits 3.500 PPL 31.423
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 48140.17it/s]
+
+=======================================================
+ Ejecutando modo: triad_quant_only
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=4, l_bits=16, groupsize=256
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 42] Q b4 g256: bits 4.125 PPL 28.982
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 41745.97it/s]
+
+=======================================================
+ Ejecutando modo: triad_quant_only
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=4, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 42] Q b4 g64: bits 4.500 PPL 28.644
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 44399.67it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 42] Q kfac 3.5: bits 3.500 PPL 30.981
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 41132.91it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 42] Q kfac 4.0: bits 4.000 PPL 29.079
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 48328.82it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 42] Q kfac 4.5: bits 4.500 PPL 28.333
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 28736.10it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 42] tubo kfac 3.5: bits 3.636 PPL 30.284
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 42734.83it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 42] tubo kfac 4.0: bits 4.136 PPL 28.768
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 48306.22it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 42] tubo kfac 4.5: bits 4.636 PPL 28.223
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 43390.11it/s]
+
+=======================================================
+ Ejecutando modo: triad_quant_only
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 0] Q b3 g64: bits 3.500 PPL 31.211
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 47914.06it/s]
+
+=======================================================
+ Ejecutando modo: triad_quant_only
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=4, l_bits=16, groupsize=256
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 0] Q b4 g256: bits 4.125 PPL 29.094
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 41817.80it/s]
+
+=======================================================
+ Ejecutando modo: triad_quant_only
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=4, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 0] Q b4 g64: bits 4.500 PPL 28.599
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 33808.42it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 0] Q kfac 3.5: bits 3.500 PPL 31.223
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 44325.83it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 0] Q kfac 4.0: bits 4.000 PPL 29.173
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 45457.33it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 0] Q kfac 4.5: bits 4.500 PPL 28.312
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 44955.27it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 0] tubo kfac 3.5: bits 3.636 PPL 30.200
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 38427.95it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 0] tubo kfac 4.0: bits 4.136 PPL 28.678
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 43596.15it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 0] tubo kfac 4.5: bits 4.636 PPL 28.084
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 37374.61it/s]
+
+=======================================================
+ Ejecutando modo: triad_quant_only
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 1] Q b3 g64: bits 3.500 PPL 31.172
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 40878.54it/s]
+
+=======================================================
+ Ejecutando modo: triad_quant_only
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=4, l_bits=16, groupsize=256
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 1] Q b4 g256: bits 4.125 PPL 28.855
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 38645.43it/s]
+
+=======================================================
+ Ejecutando modo: triad_quant_only
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=4, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 1] Q b4 g64: bits 4.500 PPL 28.715
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 43957.97it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 1] Q kfac 3.5: bits 3.500 PPL 31.034
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 47487.23it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 1] Q kfac 4.0: bits 4.000 PPL 29.248
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 49632.26it/s]
+
+=======================================================
+ Ejecutando modo: q_bitmap
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=3, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 1] Q kfac 4.5: bits 4.500 PPL 28.331
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 40757.55it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 1] tubo kfac 3.5: bits 3.636 PPL 30.110
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 41651.27it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 1] tubo kfac 4.0: bits 4.136 PPL 28.608
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 42340.66it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[seed 1] tubo kfac 4.5: bits 4.636 PPL 28.204

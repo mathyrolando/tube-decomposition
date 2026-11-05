@@ -1,0 +1,375 @@
+{
+  "args": {
+    "layer": 0,
+    "rank": 16,
+    "sparsity": 0.01,
+    "l_bits": 3,
+    "nsamples": 128,
+    "triad_wbits": 3,
+    "skip_triad": false
+  },
+  "per_matrix": [
+    {
+      "layer": 0,
+      "name": "self_attn.k_proj",
+      "m": 768,
+      "n": 768,
+      "r": 16,
+      "energy_L": 1825.4567057291667,
+      "variants": {
+        "minmax-col": {
+          "loss_L": 229.40625,
+          "loss_L_over_energy": 0.12567060576129369,
+          "bits_L_per_param": 0.1267361111111111,
+          "triad_err": 19.059432983398438,
+          "triad_bits_csr": 3.9036746554904513
+        },
+        "minmax-row": {
+          "loss_L": 48.041229248046875,
+          "loss_L_over_energy": 0.026317375316144306,
+          "bits_L_per_param": 0.20833333333333334,
+          "triad_err": 15.946179707845053,
+          "triad_bits_csr": 3.9852718777126737
+        },
+        "minmax-mixed": {
+          "loss_L": 175.2979939778646,
+          "loss_L_over_energy": 0.09602966393434291,
+          "bits_L_per_param": 0.1675347222222222,
+          "triad_err": 16.82321039835612,
+          "triad_bits_csr": 3.9444732666015625
+        },
+        "hessian-col": {
+          "loss_L": 131.69881184895834,
+          "loss_L_over_energy": 0.07214567808462602,
+          "bits_L_per_param": 0.1267361111111111,
+          "triad_err": 16.4911371866862,
+          "triad_bits_csr": 3.9036746554904513
+        },
+        "hessian-row": {
+          "loss_L": 40.65937805175781,
+          "loss_L_over_energy": 0.02227353731488071,
+          "bits_L_per_param": 0.20833333333333334,
+          "triad_err": 15.66226323445638,
+          "triad_bits_csr": 3.9852718777126737
+        },
+        "hessian-mixed": {
+          "loss_L": 104.84379069010417,
+          "loss_L_over_energy": 0.05743427952087475,
+          "bits_L_per_param": 0.1675347222222222,
+          "triad_err": 15.941450754801432,
+          "triad_bits_csr": 3.9444732666015625
+        }
+      },
+      "err_Q2": 189.44722493489584,
+      "err_Q3": 39.839978535970054,
+      "err_Q4": 8.710820515950521
+    },
+    {
+      "layer": 0,
+      "name": "self_attn.v_proj",
+      "m": 768,
+      "n": 768,
+      "r": 16,
+      "energy_L": 14.040260314941406,
+      "variants": {
+        "minmax-col": {
+          "loss_L": 2.4088524182637534,
+          "loss_L_over_energy": 0.1715675040369653,
+          "bits_L_per_param": 0.1267361111111111,
+          "triad_err": 0.6309095223744711,
+          "triad_bits_csr": 3.9036746554904513
+        },
+        "minmax-row": {
+          "loss_L": 0.3953140576680501,
+          "loss_L_over_energy": 0.028155749879321228,
+          "bits_L_per_param": 0.20833333333333334,
+          "triad_err": 0.5921276410420736,
+          "triad_bits_csr": 3.9852718777126737
+        },
+        "minmax-mixed": {
+          "loss_L": 2.2200568517049155,
+          "loss_L_over_energy": 0.15812077567695584,
+          "bits_L_per_param": 0.1675347222222222,
+          "triad_err": 0.6157339413960775,
+          "triad_bits_csr": 3.9444732666015625
+        },
+        "hessian-col": {
+          "loss_L": 1.5223706563313801,
+          "loss_L_over_energy": 0.10842894805243028,
+          "bits_L_per_param": 0.1267361111111111,
+          "triad_err": 0.6001017491022745,
+          "triad_bits_csr": 3.9036746554904513
+        },
+        "hessian-row": {
+          "loss_L": 0.3287140130996704,
+          "loss_L_over_energy": 0.02341224491043507,
+          "bits_L_per_param": 0.20833333333333334,
+          "triad_err": 0.5870038668314616,
+          "triad_bits_csr": 3.9852718777126737
+        },
+        "hessian-mixed": {
+          "loss_L": 1.4605261484781902,
+          "loss_L_over_energy": 0.10402415024484432,
+          "bits_L_per_param": 0.1675347222222222,
+          "triad_err": 0.5940593481063843,
+          "triad_bits_csr": 3.9444732666015625
+        }
+      },
+      "err_Q2": 3.3347915013631186,
+      "err_Q3": 0.815068244934082,
+      "err_Q4": 0.20407084623972574
+    },
+    {
+      "layer": 0,
+      "name": "self_attn.q_proj",
+      "m": 768,
+      "n": 768,
+      "r": 16,
+      "energy_L": 1641.46484375,
+      "variants": {
+        "minmax-col": {
+          "loss_L": 191.57621256510416,
+          "loss_L_over_energy": 0.11671051822678073,
+          "bits_L_per_param": 0.1267361111111111,
+          "triad_err": 22.569305419921875,
+          "triad_bits_csr": 3.9036746554904513
+        },
+        "minmax-row": {
+          "loss_L": 41.82499694824219,
+          "loss_L_over_energy": 0.025480287992456243,
+          "bits_L_per_param": 0.20833333333333334,
+          "triad_err": 19.497089385986328,
+          "triad_bits_csr": 3.9852718777126737
+        },
+        "minmax-mixed": {
+          "loss_L": 153.38473510742188,
+          "loss_L_over_energy": 0.0934438137322561,
+          "bits_L_per_param": 0.1675347222222222,
+          "triad_err": 20.355913798014324,
+          "triad_bits_csr": 3.9444732666015625
+        },
+        "hessian-col": {
+          "loss_L": 109.57253011067708,
+          "loss_L_over_energy": 0.06675289484747887,
+          "bits_L_per_param": 0.1267361111111111,
+          "triad_err": 20.325401306152344,
+          "triad_bits_csr": 3.9036746554904513
+        },
+        "hessian-row": {
+          "loss_L": 37.04218546549479,
+          "loss_L_over_energy": 0.02256654207766659,
+          "bits_L_per_param": 0.20833333333333334,
+          "triad_err": 19.188435872395832,
+          "triad_bits_csr": 3.9852718777126737
+        },
+        "hessian-mixed": {
+          "loss_L": 91.80586751302083,
+          "loss_L_over_energy": 0.05592923166315655,
+          "bits_L_per_param": 0.1675347222222222,
+          "triad_err": 19.380865732828777,
+          "triad_bits_csr": 3.9444732666015625
+        }
+      },
+      "err_Q2": 173.7633056640625,
+      "err_Q3": 36.16297912597656,
+      "err_Q4": 8.176142374674479
+    },
+    {
+      "layer": 0,
+      "name": "self_attn.out_proj",
+      "m": 768,
+      "n": 768,
+      "r": 16,
+      "energy_L": 0.3455803394317627,
+      "variants": {
+        "minmax-col": {
+          "loss_L": 0.03624368707338969,
+          "loss_L_over_energy": 0.10487774603435235,
+          "bits_L_per_param": 0.1267361111111111,
+          "triad_err": 0.008260070035854975,
+          "triad_bits_csr": 3.9036746554904513
+        },
+        "minmax-row": {
+          "loss_L": 0.009050892665982246,
+          "loss_L_over_energy": 0.026190415464214828,
+          "bits_L_per_param": 0.20833333333333334,
+          "triad_err": 0.007749491681655248,
+          "triad_bits_csr": 3.9852718777126737
+        },
+        "minmax-mixed": {
+          "loss_L": 0.03093257298072179,
+          "loss_L_over_energy": 0.0895090647563579,
+          "bits_L_per_param": 0.1675347222222222,
+          "triad_err": 0.007952228809396425,
+          "triad_bits_csr": 3.9444732666015625
+        },
+        "hessian-col": {
+          "loss_L": 0.020251989364624023,
+          "loss_L_over_energy": 0.05860284007453764,
+          "bits_L_per_param": 0.1267361111111111,
+          "triad_err": 0.007935747504234314,
+          "triad_bits_csr": 3.9036746554904513
+        },
+        "hessian-row": {
+          "loss_L": 0.0076696717490752535,
+          "loss_L_over_energy": 0.022193599791256888,
+          "bits_L_per_param": 0.20833333333333334,
+          "triad_err": 0.007701988021532695,
+          "triad_bits_csr": 3.9852718777126737
+        },
+        "hessian-mixed": {
+          "loss_L": 0.017736487090587616,
+          "loss_L_over_energy": 0.051323773568113566,
+          "bits_L_per_param": 0.1675347222222222,
+          "triad_err": 0.007764407744010289,
+          "triad_bits_csr": 3.9444732666015625
+        }
+      },
+      "err_Q2": 0.060281068086624146,
+      "err_Q3": 0.013587905714909235,
+      "err_Q4": 0.003143802285194397
+    },
+    {
+      "layer": 0,
+      "name": "fc1",
+      "m": 3072,
+      "n": 768,
+      "r": 16,
+      "energy_L": 69.06515502929688,
+      "variants": {
+        "minmax-col": {
+          "loss_L": 3.0799242655436196,
+          "loss_L_over_energy": 0.0445944740765027,
+          "bits_L_per_param": 0.07855902777777778,
+          "triad_err": 0.535859743754069,
+          "triad_bits_csr": 3.8580860561794705
+        },
+        "minmax-row": {
+          "loss_L": 0.7553957303365072,
+          "loss_L_over_energy": 0.010937436251552241,
+          "bits_L_per_param": 0.13020833333333334,
+          "triad_err": 0.5125231345494589,
+          "triad_bits_csr": 3.9097353617350263
+        },
+        "minmax-mixed": {
+          "loss_L": 2.954183578491211,
+          "loss_L_over_energy": 0.04277386443624242,
+          "bits_L_per_param": 0.08875868055555555,
+          "triad_err": 0.5237485567728678,
+          "triad_bits_csr": 3.868285708957248
+        },
+        "hessian-col": {
+          "loss_L": 1.5374773343404133,
+          "loss_L_over_energy": 0.022261259439557153,
+          "bits_L_per_param": 0.07855902777777778,
+          "triad_err": 0.5127551555633545,
+          "triad_bits_csr": 3.8580860561794705
+        },
+        "hessian-row": {
+          "loss_L": 0.5143852631251017,
+          "loss_L_over_energy": 0.0074478260840347595,
+          "bits_L_per_param": 0.13020833333333334,
+          "triad_err": 0.5094800392786661,
+          "triad_bits_csr": 3.9097353617350263
+        },
+        "hessian-mixed": {
+          "loss_L": 1.4853312174479167,
+          "loss_L_over_energy": 0.021506231569564296,
+          "bits_L_per_param": 0.08875868055555555,
+          "triad_err": 0.5108581781387329,
+          "triad_bits_csr": 3.868285708957248
+        }
+      },
+      "err_Q2": 3.3398634592692056,
+      "err_Q3": 0.7794452508290609,
+      "err_Q4": 0.1903714338938395
+    },
+    {
+      "layer": 0,
+      "name": "fc2",
+      "m": 768,
+      "n": 3072,
+      "r": 16,
+      "energy_L": 0.6324450174967448,
+      "variants": {
+        "minmax-col": {
+          "loss_L": 0.16370117664337158,
+          "loss_L_over_energy": 0.2588385900980146,
+          "bits_L_per_param": 0.07855902777777778,
+          "triad_err": 0.06449508666992188,
+          "triad_bits_csr": 3.863436804877387
+        },
+        "minmax-row": {
+          "loss_L": 0.014993401865164438,
+          "loss_L_over_energy": 0.023707044012314653,
+          "bits_L_per_param": 0.13020833333333334,
+          "triad_err": 0.05972222487131754,
+          "triad_bits_csr": 3.915086110432943
+        },
+        "minmax-mixed": {
+          "loss_L": 0.12621575593948364,
+          "loss_L_over_energy": 0.1995679504900729,
+          "bits_L_per_param": 0.12000868055555555,
+          "triad_err": 0.06260847548643748,
+          "triad_bits_csr": 3.9048864576551647
+        },
+        "hessian-col": {
+          "loss_L": 0.1268395483493805,
+          "loss_L_over_energy": 0.20055426928876605,
+          "bits_L_per_param": 0.07855902777777778,
+          "triad_err": 0.06203460693359375,
+          "triad_bits_csr": 3.863436804877387
+        },
+        "hessian-row": {
+          "loss_L": 0.012117065489292145,
+          "loss_L_over_energy": 0.019159081270419705,
+          "bits_L_per_param": 0.13020833333333334,
+          "triad_err": 0.059481670459111534,
+          "triad_bits_csr": 3.915086110432943
+        },
+        "hessian-mixed": {
+          "loss_L": 0.10512350002924602,
+          "loss_L_over_energy": 0.16621761120884646,
+          "bits_L_per_param": 0.12000868055555555,
+          "triad_err": 0.06041469673315684,
+          "triad_bits_csr": 3.9048864576551647
+        }
+      },
+      "err_Q2": 0.3367536465326945,
+      "err_Q3": 0.07771675785382588,
+      "err_Q4": 0.021194661657015484
+    }
+  ],
+  "summary": {
+    "minmax-col": {
+      "loss_L_ratio": 1.0,
+      "bits_L_per_param": 0.09461805555555555,
+      "triad_err_ratio": 1.0
+    },
+    "minmax-row": {
+      "loss_L_ratio": 0.1865074551065387,
+      "bits_L_per_param": 0.15625,
+      "triad_err_ratio": 0.9088689831634554
+    },
+    "minmax-mixed": {
+      "loss_L_ratio": 0.8418179363090248,
+      "bits_L_per_param": 0.1254340277777778,
+      "triad_err_ratio": 0.9444524787317252
+    },
+    "hessian-col": {
+      "loss_L_ratio": 0.5960631904598063,
+      "bits_L_per_param": 0.09461805555555555,
+      "triad_err_ratio": 0.9319979681243098
+    },
+    "hessian-row": {
+      "loss_L_ratio": 0.15179571477548257,
+      "bits_L_per_param": 0.15625,
+      "triad_err_ratio": 0.9000125804114384
+    },
+    "hessian-mixed": {
+      "loss_L_ratio": 0.5215412508828011,
+      "bits_L_per_param": 0.1254340277777778,
+      "triad_err_ratio": 0.9099570583543618
+    }
+  }
+}

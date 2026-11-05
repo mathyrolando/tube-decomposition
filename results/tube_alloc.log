@@ -1,0 +1,47 @@
+/opt/amdgpu/share/libdrm/amdgpu.ids: No such file or directory
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+CUDA extension not installed.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 46745.75it/s]
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Flash Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:287.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Mem Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:338.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[control_b3] presupuesto Q 3.5: bits None PPL 30.362
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 43342.31it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[tube_kfac] presupuesto Q 3.25: bits None PPL 31.839
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 37474.62it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[tube_kfac] presupuesto Q 3.5: bits None PPL 30.233
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 40323.94it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[tube_kfac] presupuesto Q 4.0: bits None PPL 28.610
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 25048.59it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+[tube_kfac] presupuesto Q 4.5: bits None PPL 28.054

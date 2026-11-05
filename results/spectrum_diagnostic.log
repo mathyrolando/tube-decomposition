@@ -1,0 +1,69 @@
+/opt/amdgpu/share/libdrm/amdgpu.ids: No such file or directory
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+CUDA extension not installed.
+bloque matriz               b        err   %rec  E rec  var/U     r16    nulo      MP    exc    bits     c*  c*nulo
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 52173.89it/s]
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Flash Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:287.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Mem Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:338.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+0      self_attn.k_proj     2      189.4   2.83   15.0   0.88  0.2605  0.2540  0.0833   1.03   0.194   4.65    4.51
+0      self_attn.k_proj     3      39.84   1.56    8.7   0.98  0.2025  0.2019  0.0833   1.00   0.149   3.57    3.56
+0      self_attn.k_proj     4      8.711   0.78    4.1   0.96  0.1751  0.1737  0.0833   1.01   0.133   3.18    3.15
+0      self_attn.v_proj     2      3.335   4.26   19.4   0.91  0.1456  0.1438  0.0833   1.01   0.112   2.68    2.64
+0      self_attn.v_proj     3     0.8151   2.87   18.2   0.95  0.1526  0.1527  0.0833   1.00   0.120   2.87    2.87
+0      self_attn.v_proj     4     0.2041   1.45    8.8   0.94  0.1676  0.1670  0.0833   1.00   0.130   3.12    3.10
+0      self_attn.q_proj     2      173.8   3.30   18.1   0.96  0.2469  0.2407  0.0833   1.03   0.181   4.33    4.21
+0      self_attn.q_proj     3      36.16   1.91   10.9   0.96  0.1909  0.1888  0.0833   1.01   0.142   3.42    3.38
+0      self_attn.q_proj     4      8.176   0.98    5.4   0.96  0.1667  0.1660  0.0833   1.00   0.126   3.03    3.02
+0      self_attn.out_proj   2    0.06028   3.60   22.2   0.79  0.3369  0.3364  0.0833   1.00   0.276   6.62    6.61
+0      self_attn.out_proj   3    0.01359   2.30   17.9   0.91  0.3386  0.3387  0.0833   1.00   0.282   6.78    6.78
+0      self_attn.out_proj   4   0.003144   1.28   12.8   0.98  0.3184  0.3173  0.0833   1.00   0.268   6.43    6.40
+0      fc1                  2       3.34   4.10   22.1   0.84  0.2349  0.2336  0.0469   1.01   0.184   7.07    7.02
+0      fc1                  3     0.7794   2.53   17.6   0.76  0.2164  0.2161  0.0469   1.00   0.173   6.64    6.63
+0      fc1                  4     0.1904   1.27    9.6   0.91  0.2112  0.2110  0.0469   1.00   0.166   6.38    6.38
+0      fc2                  2     0.3368   3.89   12.4   0.53  0.1631  0.1620  0.0469   1.01   0.121   4.66    4.63
+0      fc2                  3    0.07772   4.27   20.8   0.32  0.1540  0.1533  0.0469   1.00   0.129   4.94    4.92
+0      fc2                  4    0.02119   2.99   22.5   0.53  0.1391  0.1388  0.0469   1.00   0.113   4.33    4.32
+[OK] bloque 0 en 37.9s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 43170.21it/s]
+6      self_attn.k_proj     2      249.6   3.88   16.3   0.80  0.2558  0.2475  0.0833   1.03   0.181   4.35    4.19
+6      self_attn.k_proj     3       48.9   2.70   17.9   0.96  0.1648  0.1639  0.0833   1.01   0.128   3.07    3.05
+6      self_attn.k_proj     4      11.97   1.54   14.4   0.95  0.1617  0.1612  0.0833   1.00   0.125   2.99    2.98
+6      self_attn.v_proj     2      21.08   4.39   22.4   0.98  0.1372  0.1346  0.0833   1.02   0.106   2.54    2.48
+6      self_attn.v_proj     3      5.215   2.58   18.5   0.94  0.1650  0.1638  0.0833   1.01   0.141   3.39    3.36
+6      self_attn.v_proj     4      1.452   1.54   13.2   0.93  0.2274  0.2266  0.0833   1.00   0.193   4.63    4.61
+6      self_attn.q_proj     2      236.4   3.91   16.7   0.93  0.2405  0.2351  0.0833   1.02   0.173   4.15    4.04
+6      self_attn.q_proj     3      48.16   2.82   19.3   0.96  0.1636  0.1633  0.0833   1.00   0.129   3.09    3.08
+6      self_attn.q_proj     4      12.02   1.64   16.1   0.95  0.1641  0.1640  0.0833   1.00   0.126   3.03    3.03
+6      self_attn.out_proj   2      0.304   4.54   24.2   0.98  0.2084  0.2057  0.0833   1.01   0.161   3.87    3.81
+6      self_attn.out_proj   3    0.07127   2.86   22.3   0.96  0.1976  0.1967  0.0833   1.00   0.156   3.75    3.73
+6      self_attn.out_proj   4     0.0174   1.45   13.0   0.96  0.1957  0.1949  0.0833   1.00   0.152   3.64    3.63
+6      fc1                  2      10.56   4.20   21.4   0.89  0.1419  0.1387  0.0469   1.02   0.105   4.02    3.92
+6      fc1                  3      2.451   2.73   21.0   0.84  0.1031  0.1024  0.0469   1.01   0.079   3.03    3.01
+6      fc1                  4     0.6175   1.47   16.4   0.94  0.0946  0.0937  0.0469   1.01   0.070   2.69    2.66
+6      fc2                  2      1.134   3.71    7.9   0.88  0.0800  0.0786  0.0469   1.02   0.056   2.14    2.10
+6      fc2                  3      0.254   5.04   18.7   0.80  0.0731  0.0727  0.0469   1.01   0.058   2.24    2.22
+6      fc2                  4    0.06898   4.10   26.5   0.94  0.0671  0.0664  0.0469   1.01   0.052   2.02    2.00
+[OK] bloque 6 en 50.4s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 43129.65it/s]
+11     self_attn.k_proj     2      278.1   3.55   16.9   0.93  0.1408  0.1383  0.0833   1.02   0.100   2.40    2.35
+11     self_attn.k_proj     3      60.76   1.99   12.3   0.96  0.1048  0.1040  0.0833   1.01   0.076   1.83    1.82
+11     self_attn.k_proj     4      14.22   1.00    6.1   0.95  0.0988  0.0978  0.0833   1.01   0.072   1.74    1.72
+11     self_attn.v_proj     2      63.67   4.18   23.0   0.93  0.0948  0.0928  0.0833   1.02   0.070   1.69    1.65
+11     self_attn.v_proj     3      15.44   2.42   18.0   0.94  0.0954  0.0942  0.0833   1.01   0.072   1.73    1.70
+11     self_attn.v_proj     4       3.83   1.19    8.1   0.93  0.1059  0.1057  0.0833   1.00   0.080   1.91    1.91
+11     self_attn.q_proj     2      252.2   3.70   18.9   0.97  0.1300  0.1266  0.0833   1.03   0.095   2.28    2.22
+11     self_attn.q_proj     3      58.34   2.32   16.1   0.95  0.1106  0.1075  0.0833   1.03   0.082   1.97    1.91
+11     self_attn.q_proj     4      13.98   1.16    7.8   0.95  0.1033  0.1025  0.0833   1.01   0.076   1.83    1.81
+11     self_attn.out_proj   2      2.497   4.66   23.4   0.92  0.2068  0.2057  0.0833   1.01   0.159   3.81    3.78
+11     self_attn.out_proj   3     0.5796   2.82   20.2   0.94  0.1962  0.1959  0.0833   1.00   0.157   3.77    3.76
+11     self_attn.out_proj   4     0.1442   1.39    9.9   0.96  0.2123  0.2126  0.0833   1.00   0.166   3.98    3.98
+11     fc1                  2      35.19   4.16   19.6   0.80  0.0994  0.0973  0.0469   1.02   0.073   2.81    2.75
+11     fc1                  3      8.404   2.94   20.1   0.72  0.0883  0.0874  0.0469   1.01   0.066   2.53    2.51
+11     fc1                  4      2.068   1.49   10.5   0.70  0.0932  0.0927  0.0469   1.00   0.069   2.64    2.63
+11     fc2                  2      5.674   3.82   12.7   0.69  0.1369  0.1365  0.0469   1.00   0.099   3.81    3.80
+11     fc2                  3      1.289   4.02   19.7   0.89  0.1315  0.1308  0.0469   1.01   0.107   4.10    4.07
+11     fc2                  4     0.3438   2.78   19.6   0.93  0.1364  0.1357  0.0469   1.00   0.107   4.10    4.08
+[OK] bloque 11 en 62.2s
+[OK] Resultados guardados en ./experiments/43_quantized_oats_qslr_bipartite/results/spectrum_diagnostic.json

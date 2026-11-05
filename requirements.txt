@@ -1,0 +1,8 @@
+# Versiones usadas en los experimentos (GPU AMD con ROCm 6.3; con CUDA usar el torch correspondiente)
+torch==2.9.1
+transformers==5.17.0
+datasets==5.0.1
+accelerate==1.15.0
+numpy==2.4.6
+matplotlib==3.11.2
+tqdm==4.70.0

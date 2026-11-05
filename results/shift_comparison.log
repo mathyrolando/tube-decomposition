@@ -1,0 +1,25 @@
+[seed 42] Q kfac 3.5 g256 γ0.0: bits 3.125 ent 2.693 val 34.918 test 33.628
+[seed 42] Q kfac 3.5 g256 γ0.25: bits 3.125 ent 2.693 val 35.333 test 33.788
+[seed 42] Q kfac 3.5 g256 γ0.5: bits 3.125 ent 2.691 val 49.446 test 46.853
+[seed 42] Q kfac 4.0 g256 γ0.0: bits 3.625 ent 3.177 val 31.218 test 30.007
+[seed 42] Q kfac 4.0 g256 γ0.5: bits 3.625 ent 3.177 val 32.980 test 31.510
+[] Condition number 1.23e+06 > 5.00e+04, rho=0.01 + rho_update=1.05 + pairswap
+[] Condition number 1.54e+05 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 5.73e+04 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 1.12e+05 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[seed 42] Q admm kfac 3.5 g256 γ0.0: bits 3.125 ent nan val 39.541 test 37.823
+[] Condition number 1.23e+06 > 5.00e+04, rho=0.01 + rho_update=1.05 + pairswap
+[] Condition number 6.05e+04 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 1.47e+05 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 5.63e+04 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 5.45e+04 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 5.20e+04 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 1.11e+05 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[seed 42] tubo admm kfac 3.5 g256 γ0.0: bits 3.261 ent nan val 31.273 test 30.095
+[] Condition number 1.23e+06 > 5.00e+04, rho=0.01 + rho_update=1.05 + pairswap
+[] Condition number 5.77e+04 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 1.51e+05 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 5.42e+04 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 5.21e+04 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 5.10e+04 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap
+[] Condition number 1.06e+05 > 5.00e+04, rho=0.05 + rho_update=1.05 + pairswap

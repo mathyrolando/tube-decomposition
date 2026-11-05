@@ -1,0 +1,94 @@
+/opt/amdgpu/share/libdrm/amdgpu.ids: No such file or directory
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+CUDA extension not installed.
+=================================================================
+ ORQUESTADOR DE BARRIDOS DE PARETO (OPT-125M / WikiText-2)
+ Familias a procesar: ['tube_r16', 'tube_r8', 'tube_ablation']
+ Force: False | Device: cuda:0
+=================================================================
+
+>>> Procesando familia: tube_r16...
+  -> Ejecutando tube_r16 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 2}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 49908.06it/s]
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Flash Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:287.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Mem Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:338.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=2, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_r16 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 2} -> PPL=51.86 | Bits=2.64
+  -> Ejecutando tube_r16 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 3}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 47933.51it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_r16 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 3} -> PPL=30.55 | Bits=3.64
+  -> Ejecutando tube_r16 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 4}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 44918.61it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=4, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_r16 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 4} -> PPL=28.42 | Bits=4.64
+
+>>> Procesando familia: tube_r8...
+  -> Ejecutando tube_r8 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 8, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 2}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 48851.71it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=8, sp=0.0025, u_bits=4, s_bits=8, wbits=2, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_r8 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 8, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 2} -> PPL=56.88 | Bits=2.59
+  -> Ejecutando tube_r8 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 8, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 3}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 26567.57it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=8, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_r8 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 8, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 3} -> PPL=30.85 | Bits=3.59
+  -> Ejecutando tube_r8 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 8, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 4}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 40965.69it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=8, sp=0.0025, u_bits=4, s_bits=8, wbits=4, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_r8 {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 8, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 4} -> PPL=28.45 | Bits=4.59
+
+>>> Procesando familia: tube_ablation...
+  -> Ejecutando tube_ablation {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0, 'wbits': 3}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 45016.50it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_ablation {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0, 'wbits': 3} -> PPL=30.72 | Bits=3.59
+  -> Ejecutando tube_ablation {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 0, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 3}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 40282.66it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=0, sp=0.0025, u_bits=4, s_bits=8, wbits=3, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_ablation {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 0, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 3} -> PPL=31.02 | Bits=3.54
+
+=================================================================
+ ¡Barridos completados exitosamente! Datos consolidados en: ./experiments/43_quantized_oats_qslr_bipartite/results/pareto_curves_data.json
+=================================================================

@@ -1,0 +1,54 @@
+/opt/amdgpu/share/libdrm/amdgpu.ids: No such file or directory
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+CUDA extension not installed.
+=================================================================
+ ORQUESTADOR DE BARRIDOS DE PARETO (OPT-125M / WikiText-2)
+ Familias a procesar: ['tube_b2_diag']
+ Force: False | Device: cuda:0
+=================================================================
+
+>>> Procesando familia: tube_b2_diag...
+  -> Ejecutando tube_b2_diag {'alpha_min': 0.4, 'groupsize': 64, 'mode': 'triad_quant_only', 'wbits': 2}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 41040.97it/s]
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Flash Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:287.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+./.venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:158: UserWarning: Mem Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:338.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+
+=======================================================
+ Ejecutando modo: triad_quant_only
+ rho=None, kappa=None, r=64, sp=0.05, u_bits=4, s_bits=8, wbits=2, l_bits=16, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_b2_diag {'alpha_min': 0.4, 'groupsize': 64, 'mode': 'triad_quant_only', 'wbits': 2} -> PPL=63.83 | Bits=2.50
+  -> Ejecutando tube_b2_diag {'alpha_min': 0.7, 'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 2}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 46862.40it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0025, u_bits=4, s_bits=8, wbits=2, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_b2_diag {'alpha_min': 0.7, 'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 2} -> PPL=53.87 | Bits=2.64
+  -> Ejecutando tube_b2_diag {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 0, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 2}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 39941.89it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=0, sp=0.0025, u_bits=4, s_bits=8, wbits=2, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_b2_diag {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 0, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0025, 'wbits': 2} -> PPL=57.61 | Bits=2.54
+  -> Ejecutando tube_b2_diag {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0, 'wbits': 2}...
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 46915.62it/s]
+
+=======================================================
+ Ejecutando modo: tube
+ rho=None, kappa=None, r=16, sp=0.0, u_bits=4, s_bits=8, wbits=2, l_bits=3, groupsize=64
+=======================================================
+Evaluando perplejidad en WikiText-2...
+  [OK] tube_b2_diag {'groupsize': 64, 'l_bits': 3, 'mode': 'tube', 'r': 16, 's_index': 'rowcount', 's_val_bits': 4, 'sparsity': 0.0, 'wbits': 2} -> PPL=63.66 | Bits=2.59
+
+=================================================================
+ ¡Barridos completados exitosamente! Datos consolidados en: ./experiments/43_quantized_oats_qslr_bipartite/results/pareto_curves_data.json
+=================================================================

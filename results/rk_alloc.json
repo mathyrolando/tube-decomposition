@@ -1,0 +1,377 @@
+[
+  {
+    "seed": 42,
+    "budget_map": 3.5,
+    "bits": 3.2602840235203874,
+    "ppl_val": 32.17015075683594,
+    "ppl": 30.961013793945312,
+    "summary": {
+      "r32 rho0.005": 15,
+      "r0 rho0.0025": 30,
+      "r16 rho0.0025": 27
+    },
+    "mean_db": 0.020833333333333332,
+    "option_map": {
+      "0.self_attn.k_proj": {
+        "wbits": 2,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "0.self_attn.v_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "0.self_attn.q_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "0.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "0.fc1": {
+        "wbits": 3,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "0.fc2": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "1.self_attn.k_proj": {
+        "wbits": 2,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "1.self_attn.v_proj": {
+        "wbits": 3,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "1.self_attn.q_proj": {
+        "wbits": 2,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "1.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "1.fc1": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "1.fc2": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "2.self_attn.k_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "2.self_attn.v_proj": {
+        "wbits": 5,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "2.self_attn.q_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "2.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "2.fc1": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "2.fc2": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "3.self_attn.k_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "3.self_attn.v_proj": {
+        "wbits": 6,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "3.self_attn.q_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "3.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "3.fc1": {
+        "wbits": 2,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "3.fc2": {
+        "wbits": 2,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "4.self_attn.k_proj": {
+        "wbits": 3,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "4.self_attn.v_proj": {
+        "wbits": 5,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "4.self_attn.q_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "4.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "4.fc1": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "4.fc2": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "5.self_attn.k_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "5.self_attn.v_proj": {
+        "wbits": 5,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "5.self_attn.q_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "5.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "5.fc1": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "5.fc2": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "6.self_attn.k_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "6.self_attn.v_proj": {
+        "wbits": 5,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "6.self_attn.q_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "6.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "6.fc1": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "6.fc2": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "7.self_attn.k_proj": {
+        "wbits": 3,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "7.self_attn.v_proj": {
+        "wbits": 5,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "7.self_attn.q_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "7.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "7.fc1": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "7.fc2": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "8.self_attn.k_proj": {
+        "wbits": 3,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "8.self_attn.v_proj": {
+        "wbits": 5,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "8.self_attn.q_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "8.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "8.fc1": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "8.fc2": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "9.self_attn.k_proj": {
+        "wbits": 3,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "9.self_attn.v_proj": {
+        "wbits": 5,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "9.self_attn.q_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "9.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "9.fc1": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "9.fc2": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "10.self_attn.k_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "10.self_attn.v_proj": {
+        "wbits": 5,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "10.self_attn.q_proj": {
+        "wbits": 2,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "10.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "10.fc1": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "10.fc2": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "11.self_attn.k_proj": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "11.self_attn.v_proj": {
+        "wbits": 4,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "11.self_attn.q_proj": {
+        "wbits": 2,
+        "r": 32,
+        "sparsity": 0.005
+      },
+      "11.self_attn.out_proj": {
+        "wbits": 3,
+        "r": 0,
+        "sparsity": 0.0025
+      },
+      "11.fc1": {
+        "wbits": 3,
+        "r": 16,
+        "sparsity": 0.0025
+      },
+      "11.fc2": {
+        "wbits": 2,
+        "r": 32,
+        "sparsity": 0.005
+      }
+    }
+  }
+]
