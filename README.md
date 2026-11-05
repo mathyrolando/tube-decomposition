@@ -45,7 +45,7 @@ Los scripts se corren desde la raíz del repositorio y usan el intérprete de `$
 | Elección del rango por validación y ruido de corrida | `run_day1.sh`, `run_val_recheck.sh` |
 | OPT-1.3B | `run_opt13b.sh`, `run_opt13b_admm.sh`, `run_opt13b_admm_s0.sh` |
 
-Cada entrada de `results/shift_comparison.json` y de los demás archivos guarda la configuración, la semilla, la perplejidad de validación y de prueba, los bits y, desde la etapa final del trabajo, el commit del código que la produjo. Esos commits corresponden al repositorio de desarrollo, que no es público; el código que los produjo es el de este repositorio.
+Cada entrada de `results/shift_comparison.json` y de los demás archivos guarda la configuración, la semilla, la perplejidad de validación y de prueba y los bits.
 
 ## Licencia
 
