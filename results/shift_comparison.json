@@ -1689,5 +1689,91 @@
     },
     "H_zero": 3.2177147648754167,
     "bits_zero": 3.431144769230765
+  },
+  {
+    "config": "fp16 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-1.3b",
+    "ppl_val": 15.125113487243652,
+    "ppl": 14.623723030090332,
+    "bits": 16.0,
+    "git": {
+      "commit": "e0a8a98",
+      "dirty": false
+    },
+    "ppl_c4": 16.070192337036133,
+    "kl": 0.0
+  },
+  {
+    "config": "Q admmH kfac 3.0 g128 \u03b30.0 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 17.474098205566406,
+    "ppl": 16.83121681213379,
+    "bits": 2.75,
+    "wbits": 2.5,
+    "ppl_c4": 20.777698516845703,
+    "kl": 0.17930186305727278,
+    "git": {
+      "commit": "e0a8a98",
+      "dirty": false
+    },
+    "H_zero": 2.197818070406675,
+    "bits_zero": 2.447818070406675
+  },
+  {
+    "config": "tubo admmH kfac 3.0 g256 \u03b30.0 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 17.116376876831055,
+    "ppl": 16.489673614501953,
+    "bits": 2.704031382997831,
+    "wbits": 2.5,
+    "ppl_c4": 20.211048126220703,
+    "kl": 0.15911727233656814,
+    "git": {
+      "commit": "e0a8a98",
+      "dirty": false
+    },
+    "H_zero": 2.251007946013198,
+    "bits_zero": 2.455039329011029
+  },
+  {
+    "config": "Q admmH kfac 3.5 g128 \u03b30.0 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 16.151845932006836,
+    "ppl": 15.572845458984375,
+    "bits": 3.25,
+    "wbits": 3.0,
+    "ppl_c4": 17.959320068359375,
+    "kl": 0.08606112375855446,
+    "git": {
+      "commit": "e0a8a98",
+      "dirty": false
+    },
+    "H_zero": 2.6750751596285016,
+    "bits_zero": 2.9250751596285016
+  },
+  {
+    "config": "tubo admmH kfac 3.5 g256 \u03b30.0 +c4kl",
+    "seed": 0,
+    "model": "facebook/opt-1.3b",
+    "gamma": 0.0,
+    "ppl_val": 16.129623413085938,
+    "ppl": 15.528372764587402,
+    "bits": 3.2040428039100437,
+    "wbits": 3.0,
+    "ppl_c4": 17.80940055847168,
+    "kl": 0.07465594647718328,
+    "git": {
+      "commit": "e0a8a98",
+      "dirty": false
+    },
+    "H_zero": 2.743382793847147,
+    "bits_zero": 2.947425597757191
   }
 ]
