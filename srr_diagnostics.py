@@ -8,7 +8,7 @@ Diagnósticos de SRR (srr.py) en OPT-125M, solo CPU (no compite con corridas en 
 2. Bloque 3, self_attn.k_proj, Q a 3 bits g256 (ADMM-H), r=16: error funcional de SRR con L en
    16, 8, 4 y 3 bits, y de Q sola. Muestra que L después de Q necesita bits altos.
 
-Uso (desde lab/):
+Uso (desde la raíz del repositorio):
     HIP_VISIBLE_DEVICES= CUDA_VISIBLE_DEVICES= python srr_diagnostics.py
 """
 from __future__ import annotations

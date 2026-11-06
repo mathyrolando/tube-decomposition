@@ -2,7 +2,7 @@
 
 GIT se calcula una sola vez, al importar el módulo (es decir, al lanzar el script),
 así que no cambia aunque el código se edite mientras la corrida está en marcha.
-dirty=True significa que había cambios sin commitear en lab/ (sin contar lab/results/):
+dirty=True significa que había cambios sin commitear en el repositorio (sin contar results/):
 esa cifra no es reproducible desde el commit.
 """
 from __future__ import annotations
